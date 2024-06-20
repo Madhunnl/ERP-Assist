@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Major Case Information" section_id="c1260823973e8a50e3e737d3f153af94" sys_domain="global" table="x_1166825_erp_assi_erp_case" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>major_case_state</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_id>c5260823973e8a50e3e737d3f153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_id>c5260823973e8a50e3e737d3f153af95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recipient_list</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_id>c9260823973e8a50e3e737d3f153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_id>cd260823973e8a50e3e737d3f153af95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_impact</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_id>cd260823973e8a50e3e737d3f153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>probable_cause</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_id>c1260823973e8a50e3e737d3f153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Major Case Information</caption>
+            <header>false</header>
+            <name>x_1166825_erp_assi_erp_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1260823973e8a50e3e737d3f153af94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1166825_erp_assi_erp_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+            <sys_update_name>sys_ui_section_c1260823973e8a50e3e737d3f153af94</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">d42c04acd9313110cedf7dffddb48f64</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

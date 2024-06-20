@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c9260823973e8a50e3e737d3f153af90" sys_domain="global" table="x_1166825_erp_assi_erp_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01260823973e8a50e3e737d3f153afa5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c9260823973e8a50e3e737d3f153af90</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">41260823973e8a50e3e737d3f153af9a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49260823973e8a50e3e737d3f153afb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c9260823973e8a50e3e737d3f153af90</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">05260823973e8a50e3e737d3f153afb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d260823973e8a50e3e737d3f153afb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c9260823973e8a50e3e737d3f153af90</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">45260823973e8a50e3e737d3f153afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5260823973e8a50e3e737d3f153af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c9260823973e8a50e3e737d3f153af90</sys_ui_form>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd260823973e8a50e3e737d3f153afaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c9260823973e8a50e3e737d3f153af90</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">85260823973e8a50e3e737d3f153afa5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1166825_erp_assi_erp_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-20 18:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9260823973e8a50e3e737d3f153af90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1166825_erp_assi_erp_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c9260823973e8a50e3e737d3f153af90</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">d42c04acd9313110cedf7dffddb48f64</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
