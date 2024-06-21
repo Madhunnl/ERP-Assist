@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="ERP Case Entry">0b31d823977e8a50e3e737d3f153af85</cat_item>
+        <cat_item display_value="Case &amp; Product entry">1c3024a797be8a50e3e737d3f153af35</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>priority</field>
+        <field>u_boolean_1</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -30,24 +30,24 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label>priority</lookup_label>
+        <lookup_label/>
         <lookup_price/>
-        <lookup_table>task</lookup_table>
-        <lookup_unique>true</lookup_unique>
-        <lookup_value>priority</lookup_value>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>priority</name>
-        <order>900</order>
+        <name>u_boolean_1</name>
+        <order>6</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Please select the Priority</question_text>
+        <question_text>Is It a Mutiple Product Request?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -75,19 +75,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-20 20:29:39</sys_created_on>
-        <sys_id>bb9d58a397be8a50e3e737d3f153af6d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Please select the Priority</sys_name>
-        <sys_package/>
+        <sys_created_on>2024-06-21 18:58:57</sys_created_on>
+        <sys_id>09721db397b60e50e3e737d3f153af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Is It a Mutiple Product Request?</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name>item_option_new_bb9d58a397be8a50e3e737d3f153af6d</sys_update_name>
+        <sys_update_name>item_option_new_09721db397b60e50e3e737d3f153af92</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-20 20:32:11</sys_updated_on>
+        <sys_updated_on>2024-06-21 18:58:57</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>18</type>
+        <type>1</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=bb9d58a397be8a50e3e737d3f153af6d"/>
-    <fx_price action="delete_multiple" query="id=bb9d58a397be8a50e3e737d3f153af6d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=09721db397b60e50e3e737d3f153af92"/>
+    <fx_price action="delete_multiple" query="id=09721db397b60e50e3e737d3f153af92"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="INR">INR</currency>
         <field>price_if_checked</field>
-        <id>bb9d58a397be8a50e3e737d3f153af6d</id>
+        <id>09721db397b60e50e3e737d3f153af92</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-20 20:29:39</sys_created_on>
-        <sys_id>b8eddca397be8a50e3e737d3f153af10</sys_id>
+        <sys_created_on>2024-06-21 18:58:57</sys_created_on>
+        <sys_id>b9b251f397b60e50e3e737d3f153af6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-20 20:29:39</sys_updated_on>
+        <sys_updated_on>2024-06-21 18:58:57</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="INR">INR</currency>
         <field>rec_price_if_checked</field>
-        <id>bb9d58a397be8a50e3e737d3f153af6d</id>
+        <id>09721db397b60e50e3e737d3f153af92</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-20 20:29:39</sys_created_on>
-        <sys_id>3ceddca397be8a50e3e737d3f153af0f</sys_id>
+        <sys_created_on>2024-06-21 18:58:57</sys_created_on>
+        <sys_id>79b251f397b60e50e3e737d3f153af69</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-20 20:29:39</sys_updated_on>
+        <sys_updated_on>2024-06-21 18:58:57</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

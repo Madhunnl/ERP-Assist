@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-20 21:06:18</sys_created_on>
+        <sys_id>bd46ec6f97be8a50e3e737d3f153af19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1166825.test.*.canvas_user</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_security_acl display_value="x.1166825.test.*">2d46ac6f97be8a50e3e737d3f153afa3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bd46ec6f97be8a50e3e737d3f153af19</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-20 21:06:18</sys_updated_on>
+        <sys_user_role display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

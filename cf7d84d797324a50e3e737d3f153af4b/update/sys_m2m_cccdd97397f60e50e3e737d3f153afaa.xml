@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>incident</from_table>
+        <m2m_from_field>incident</m2m_from_field>
+        <m2m_from_label>incident Characters</m2m_from_label>
+        <m2m_table>x_1166825_erp_assi_x_1166825_erp_assit_incident_m2m_incident_x_1166825_er</m2m_table>
+        <m2m_to_field>x_1166825_erp_assi_incident_characters</m2m_to_field>
+        <m2m_to_label>Incidents</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:47:56</sys_created_on>
+        <sys_id>cccdd97397f60e50e3e737d3f153afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166825_erp_assi_x_1166825_erp_assit_incident_m2m_incident_x_1166825_er</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_m2m_cccdd97397f60e50e3e737d3f153afaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:47:56</sys_updated_on>
+        <to_table>x_1166825_erp_assi_incident_characters</to_table>
+    </sys_m2m>
+</record_update>

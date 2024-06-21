@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="test">2236e02f97be8a50e3e737d3f153afea</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>test</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Breadcrumb App Shell">e341e22cc32e2010ea04a5a1d840dd02</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>test</route_type>
+        <screen_type display_value="test">6e37ec6f97be8a50e3e737d3f153afd9</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-20 21:10:29</sys_created_on>
+        <sys_id>f637ec6f97be8a50e3e737d3f153afdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ux_app_route_f637ec6f97be8a50e3e737d3f153afdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-20 21:10:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=f637ec6f97be8a50e3e737d3f153afdc"/>
+</record_update>
