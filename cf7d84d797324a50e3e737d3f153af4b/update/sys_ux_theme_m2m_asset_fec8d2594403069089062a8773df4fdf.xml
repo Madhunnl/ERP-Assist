@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE">
+        <asset display_value="now-logo-dark">3ac8d2597d030690dfbec456474287e0</asset>
+        <properties>{&#13;
+"position": "header_logo"&#13;
+}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-26 15:56:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fec8d2594403069089062a8773df4fdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_fec8d2594403069089062a8773df4fdf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-26 15:56:04</sys_updated_on>
+        <theme display_value="Light Theme">b2c81659ab03069059809b33f9527715</theme>
+    </sys_ux_theme_m2m_asset>
+</record_update>

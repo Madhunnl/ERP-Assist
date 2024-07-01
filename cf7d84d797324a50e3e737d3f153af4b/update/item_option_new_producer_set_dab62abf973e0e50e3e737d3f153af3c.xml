@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_producer_set">
+    <item_option_new_producer_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>erp_product_characteristics</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>10</order>
+        <parent_reference_field>x_1166825_erp_assi_erp_product_character</parent_reference_field>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_producer_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 01:06:34</sys_created_on>
+        <sys_id>dab62abf973e0e50e3e737d3f153af3c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ERP product characteristics</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>item_option_new_producer_set_dab62abf973e0e50e3e737d3f153af3c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-22 01:17:43</sys_updated_on>
+        <table_name>x_1166825_erp_assi_m2m_x_1166825_er_x_1166825_er</table_name>
+        <title>ERP product characteristics</title>
+        <type>one_to_one</type>
+        <version>2</version>
+        <write_roles/>
+    </item_option_new_producer_set>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="ERP ASSIST">2ac8d25997030690e3e737d3f153afb6</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">7ac81659c5030690cf50f87ece19ee06</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-26 15:56:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b2c8d259cb030690e227b8b702922de6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ux_page_property_b2c8d259cb030690e227b8b702922de6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-26 15:56:04</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1166825_erp_assi.2ac8d25997030690e3e737d3f153afb6.route.chrome_header.7ac81659c5030690cf50f87ece19ee06</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2c8d259cb030690e227b8b702922de6"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Custom Portal App Config">2ec8d25997030690e3e737d3f153afb6</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Activity</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(request)">36c8165968030690f223a6734047e70b</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_req_activity</route_type>
+        <screen_type display_value="Activity">7ec816594903069079b73d4a87737908</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-26 15:56:04</sys_created_on>
+        <sys_id>b6c8165940030690e8d33c1ed9d4a409</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ux_app_route_b6c8165940030690e8d33c1ed9d4a409</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-26 15:56:04</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6c8165940030690e8d33c1ed9d4a409"/>
+</record_update>

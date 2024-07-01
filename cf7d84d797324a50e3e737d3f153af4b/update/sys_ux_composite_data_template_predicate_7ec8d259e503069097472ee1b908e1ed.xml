@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,opened_by</field_list>
+        <name>My Requests (task) predicate</name>
+        <order/>
+        <predicate_bundle display_value="My Requests (task) bundle">b6c8d259d7030690ad1d2fe37a10f0ee</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-26 15:56:06</sys_created_on>
+        <sys_id>7ec8d259e503069097472ee1b908e1ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests (task) predicate</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_7ec8d259e503069097472ee1b908e1ed</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-26 15:56:06</sys_updated_on>
+        <table>task</table>
+        <ux_template display_value="My Requests (task) template">b2c8d259ec030690dfb5d863b13164f2</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

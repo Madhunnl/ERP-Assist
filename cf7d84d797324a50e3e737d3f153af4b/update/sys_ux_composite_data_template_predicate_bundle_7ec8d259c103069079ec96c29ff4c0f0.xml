@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle">
+    <sys_ux_composite_data_template_predicate_bundle action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>My requests - reqested item bundle</name>
+        <sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-26 15:56:07</sys_created_on>
+        <sys_id>7ec8d259c103069079ec96c29ff4c0f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My requests - reqested item bundle</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_7ec8d259c103069079ec96c29ff4c0f0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-26 15:56:07</sys_updated_on>
+    </sys_ux_composite_data_template_predicate_bundle>
+</record_update>

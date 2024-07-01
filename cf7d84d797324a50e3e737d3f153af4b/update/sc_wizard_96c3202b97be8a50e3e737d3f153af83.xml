@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard">
+    <sc_wizard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dynamic_title/>
+        <feeback_panel>true</feeback_panel>
+        <layout>stacked</layout>
+        <name>test</name>
+        <producer display_value="ERP Case Assist">92124bdd97c30690e3e737d3f153af4b</producer>
+        <review_step_label>Review and submit</review_step_label>
+        <short_description/>
+        <show_cancel>false</show_cancel>
+        <show_review_step>true</show_review_step>
+        <show_save>false</show_save>
+        <show_submit_on_the_last_step>true</show_submit_on_the_last_step>
+        <submit_label>Submit</submit_label>
+        <sys_class_name>sc_wizard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-20 20:55:30</sys_created_on>
+        <sys_id>96c3202b97be8a50e3e737d3f153af83</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sc_wizard_96c3202b97be8a50e3e737d3f153af83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-30 03:34:27</sys_updated_on>
+        <type>crp</type>
+        <update_label>Save</update_label>
+    </sc_wizard>
+    <sys_translated_text action="delete_multiple" query="documentkey=96c3202b97be8a50e3e737d3f153af83"/>
+</record_update>

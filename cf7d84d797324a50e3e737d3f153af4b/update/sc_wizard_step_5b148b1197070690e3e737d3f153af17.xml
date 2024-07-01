@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_step">
+    <sc_wizard_step action="INSERT_OR_UPDATE">
+        <custom>false</custom>
+        <feedback/>
+        <hide_on_template>false</hide_on_template>
+        <macroponent/>
+        <name>Product Info</name>
+        <order>200</order>
+        <short_description>Used to Populate Product Values</short_description>
+        <sys_class_name>sc_wizard_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 19:05:57</sys_created_on>
+        <sys_id>5b148b1197070690e3e737d3f153af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product Info</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sc_wizard_step_5b148b1197070690e3e737d3f153af17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 19:05:57</sys_updated_on>
+        <template_feedback/>
+        <use_same_feedback_in_template>true</use_same_feedback_in_template>
+        <wizard display_value="ERP Assist ">c00d761997c30690e3e737d3f153af9e</wizard>
+    </sc_wizard_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b148b1197070690e3e737d3f153af17"/>
+</record_update>
