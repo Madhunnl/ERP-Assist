@@ -17,6 +17,6 @@
         <sys_update_name>sc_wizard_question_cdabc1af9772ca50e3e737d3f153af91</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-20 23:49:52</sys_updated_on>
-        <wizard_section display_value="Product Description">9e4b896f9772ca50e3e737d3f153afab</wizard_section>
+        <wizard_section/>
     </sc_wizard_question>
 </record_update>

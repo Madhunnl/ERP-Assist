@@ -3,7 +3,7 @@
         <inactive>false</inactive>
         <order>100</order>
         <published_ref/>
-        <question display_value="What is the Model Status">aa278f5597070690e3e737d3f153af6b</question>
+        <question display_value="What is the Product Status">aa278f5597070690e3e737d3f153af6b</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 19:19:53</sys_created_on>

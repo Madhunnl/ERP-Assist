@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="676e9db397f60e50e3e737d3f153af9d" label="Product Characteristics " max_length="40" name="x_1166825_erp_assi_erp_product_characteristics" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Type" max_length="250" name="type" type="string"/>
+    </element>
+</database>

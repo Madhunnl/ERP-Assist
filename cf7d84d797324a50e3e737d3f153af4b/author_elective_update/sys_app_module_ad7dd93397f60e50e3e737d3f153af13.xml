@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="incident Characters">d57dd93397f60e50e3e737d3f153af10</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>incident Characters</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1166825_erp_assi_incident_characters</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1166825_erp_assi.incident_characters_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:45:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad7dd93397f60e50e3e737d3f153af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident Characters</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_app_module_ad7dd93397f60e50e3e737d3f153af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:45:53</sys_updated_on>
+        <timeline_page/>
+        <title>incident Characters</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>2797f546dbdc7f0007072f17d49619af</instance_id>
+        <instance_name>dev76445</instance_name>
+        <name>sys_app_module_ad7dd93397f60e50e3e737d3f153af13</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="incident Characters">d57dd93397f60e50e3e737d3f153af10</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>incident Characters</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1166825_erp_assi_incident_characters</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1166825_erp_assi.incident_characters_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-21 19:45:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad7dd93397f60e50e3e737d3f153af13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident Characters</sys_name><sys_overrides/><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sys_app_module_ad7dd93397f60e50e3e737d3f153af13</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-21 19:45:53</sys_updated_on><timeline_page/><title>incident Characters</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>204794841</payload_hash>
+        <record_name>incident Characters</record_name>
+        <reverted_from/>
+        <source>c77d84d797324a50e3e737d3f153af50</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:45:53</sys_created_on>
+        <sys_id>e17d517397f60e50e3e737d3f153af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1903c557cf30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:45:53</sys_updated_on>
+        <type>Module</type>
+        <update_guid>297d517389f60e504a9bdcf9468af00f</update_guid>
+        <update_guid_history>297d517389f60e504a9bdcf9468af00f:204794841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="incident Characters">d2fe513797f60e50e3e737d3f153afd7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:52:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5a0f52f9921c45d4b8596c23724e7890</sys_id>
+        <sys_metadata>ad7dd93397f60e50e3e737d3f153af13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident Characters</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sys_app_module_ad7dd93397f60e50e3e737d3f153af13</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ad7dd93397f60e50e3e737d3f153af13">e17d517397f60e50e3e737d3f153af10</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:52:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

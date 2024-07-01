@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_section">
+    <sc_wizard_section action="DELETE">
+        <name>Case description</name>
+        <order>30</order>
+        <short_description/>
+        <style>card</style>
+        <sys_class_name>sc_wizard_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 00:03:16</sys_created_on>
+        <sys_id>2abe05a397b2ca50e3e737d3f153af87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Case description</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sc_wizard_section_2abe05a397b2ca50e3e737d3f153af87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 00:07:21</sys_updated_on>
+        <width>50</width>
+        <wizard_step display_value="Case Info ">82c345e39772ca50e3e737d3f153af71</wizard_step>
+    </sc_wizard_section>
+    <sys_translated_text action="DELETE" query="documentkey=2abe05a397b2ca50e3e737d3f153af87"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>2797f546dbdc7f0007072f17d49619af</instance_id>
+        <instance_name>dev76445</instance_name>
+        <name>sc_wizard_section_2abe05a397b2ca50e3e737d3f153af87</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_section"><sc_wizard_section action="INSERT_OR_UPDATE"><name>Case description</name><order>30</order><short_description/><style>card</style><sys_class_name>sc_wizard_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-21 00:03:16</sys_created_on><sys_id>2abe05a397b2ca50e3e737d3f153af87</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Case description</sys_name><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sc_wizard_section_2abe05a397b2ca50e3e737d3f153af87</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-21 00:07:21</sys_updated_on><width>50</width><wizard_step display_value="Case Info ">82c345e39772ca50e3e737d3f153af71</wizard_step></sc_wizard_section><sys_translated_text action="delete_multiple" query="documentkey=2abe05a397b2ca50e3e737d3f153af87"/></record_update>]]></payload>
+        <payload_hash>606424810</payload_hash>
+        <record_name>Case description</record_name>
+        <reverted_from/>
+        <source>c77d84d797324a50e3e737d3f153af50</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 00:07:21</sys_created_on>
+        <sys_id>65bf8da397b2ca50e3e737d3f153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190381e80830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 00:07:21</sys_updated_on>
+        <type>Catalog Wizard Section</type>
+        <update_guid>6dbf8da311b2ca5058b681680f3fef37</update_guid>
+        <update_guid_history>6dbf8da311b2ca5058b681680f3fef37:606424810,f9ce81a3f8b2ca50f86ea7b5e3982469:-1023541045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Case description">461c72d597c30690e3e737d3f153af7c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 18:30:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_wizard_section">sc_wizard_section</sys_db_object>
+        <sys_id>128bc1f483b54ee08e409c0f4c3c5900</sys_id>
+        <sys_metadata>2abe05a397b2ca50e3e737d3f153af87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case description</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sc_wizard_section_2abe05a397b2ca50e3e737d3f153af87</sys_update_name>
+        <sys_update_version display_value="sc_wizard_section_2abe05a397b2ca50e3e737d3f153af87">65bf8da397b2ca50e3e737d3f153af38</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 18:30:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

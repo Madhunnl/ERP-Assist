@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config_mapping">
+    <sc_wizard_action_config_mapping action="DELETE">
+        <hide_action>false</hide_action>
+        <sys_class_name>sc_wizard_action_config_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 17:45:31</sys_created_on>
+        <sys_id>b2d1365997830690e3e737d3f153afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Case &amp; Product.Edit Item in Advanced View Config</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sc_wizard_action_config_mapping_b2d1365997830690e3e737d3f153afe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 17:45:31</sys_updated_on>
+        <wizard display_value="ERP Case &amp; Product">6e738da39772ca50e3e737d3f153af9c</wizard>
+        <wizard_action_config display_value="Edit Item in Advanced View Config">d75839a2eb43211008f2951ff1522861</wizard_action_config>
+    </sc_wizard_action_config_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>2797f546dbdc7f0007072f17d49619af</instance_id>
+        <instance_name>dev76445</instance_name>
+        <name>sc_wizard_action_config_mapping_b2d1365997830690e3e737d3f153afe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config_mapping"><sc_wizard_action_config_mapping action="INSERT_OR_UPDATE"><hide_action>false</hide_action><sys_class_name>sc_wizard_action_config_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-26 17:45:31</sys_created_on><sys_id>b2d1365997830690e3e737d3f153afe1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ERP Case &amp; Product.Edit Item in Advanced View Config</sys_name><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sc_wizard_action_config_mapping_b2d1365997830690e3e737d3f153afe1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-26 17:45:31</sys_updated_on><wizard display_value="ERP Case &amp; Product">6e738da39772ca50e3e737d3f153af9c</wizard><wizard_action_config display_value="Edit Item in Advanced View Config">d75839a2eb43211008f2951ff1522861</wizard_action_config></sc_wizard_action_config_mapping></record_update>]]></payload>
+        <payload_hash>313682139</payload_hash>
+        <record_name>ERP Case &amp; Product.Edit Item in Advanced View Config</record_name>
+        <reverted_from/>
+        <source>c77d84d797324a50e3e737d3f153af50</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 17:45:31</sys_created_on>
+        <sys_id>b2d1365997830690e3e737d3f153afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19055a713b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 17:45:31</sys_updated_on>
+        <type>Wizard Action Configuration Mapping</type>
+        <update_guid>f6d13659b28306904904b8f934a820e2</update_guid>
+        <update_guid_history>f6d13659b28306904904b8f934a820e2:313682139</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ERP Case &amp; Product.Edit Item in Advanced View Config">41f6f21197c30690e3e737d3f153af90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 18:07:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_wizard_action_config_mapping">sc_wizard_action_config_mapping</sys_db_object>
+        <sys_id>3674df0ff565422c81624e2957aae1c1</sys_id>
+        <sys_metadata>b2d1365997830690e3e737d3f153afe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Case &amp; Product.Edit Item in Advanced View Config</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sc_wizard_action_config_mapping_b2d1365997830690e3e737d3f153afe1</sys_update_name>
+        <sys_update_version display_value="sc_wizard_action_config_mapping_b2d1365997830690e3e737d3f153afe1">b2d1365997830690e3e737d3f153afe3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 18:07:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

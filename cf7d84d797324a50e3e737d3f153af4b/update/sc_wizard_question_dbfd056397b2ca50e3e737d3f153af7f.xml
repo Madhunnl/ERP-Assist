@@ -17,6 +17,6 @@
         <sys_update_name>sc_wizard_question_dbfd056397b2ca50e3e737d3f153af7f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 00:02:54</sys_updated_on>
-        <wizard_section display_value="Case Info">a48d892397b2ca50e3e737d3f153af32</wizard_section>
+        <wizard_section/>
     </sc_wizard_question>
 </record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="538f593797f60e50e3e737d3f153af65" label="x_1166825_erp_assi_m2m_ERP Products_Product Characteristics s" max_length="40" name="x_1166825_erp_assi_m2m_x_1166825_er_x_1166825_er" type="collection">
+        <element label="Product Characteristic Value" max_length="40" name="product_characteristic_value" type="string"/>
+        <element attributes="encode_utf8=false" label="ERP Products" max_length="32" name="x_1166825_erp_assi_erp_product" reference="x_1166825_erp_assi_erp_product" type="reference"/>
+        <element attributes="encode_utf8=false" label="Product Characteristics" max_length="32" name="x_1166825_erp_assi_erp_product_character" reference="x_1166825_erp_assi_erp_product_characteristics" type="reference"/>
+        <index name="index">
+            <element name="x_1166825_erp_assi_erp_product"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="229588af97fa8a50e3e737d3f153af22" extends="cmdb_model" label="ERP Product" max_length="40" name="x_1166825_erp_assi_erp_product" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Product Charaterisitcs" max_length="1024" name="u_glide_list_1" reference="x_1166825_erp_assi_m2m_x_1166825_er_x_1166825_er" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="ERP refernce Case" max_length="32" name="u_reference_1" reference="x_1166825_erp_assi_erp_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Charactieristics in JSON" max_length="4000" name="u_string_full_utf8_1" type="string"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

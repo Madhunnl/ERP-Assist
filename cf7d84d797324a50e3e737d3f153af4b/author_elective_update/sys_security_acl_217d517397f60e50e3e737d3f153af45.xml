@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1166825_erp_assi_incident_characters</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1166825_erp_assi_incident_characters</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:45:54</sys_created_on>
+        <sys_id>217d517397f60e50e3e737d3f153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166825_erp_assi_incident_characters</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_security_acl_217d517397f60e50e3e737d3f153af45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:45:54</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>2797f546dbdc7f0007072f17d49619af</instance_id>
+        <instance_name>dev76445</instance_name>
+        <name>sys_security_acl_217d517397f60e50e3e737d3f153af45</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1166825_erp_assi_incident_characters</description><local_or_existing>Local</local_or_existing><name>x_1166825_erp_assi_incident_characters</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-21 19:45:54</sys_created_on><sys_id>217d517397f60e50e3e737d3f153af45</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1166825_erp_assi_incident_characters</sys_name><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sys_security_acl_217d517397f60e50e3e737d3f153af45</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-21 19:45:54</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1302331616</payload_hash>
+        <record_name>x_1166825_erp_assi_incident_characters</record_name>
+        <reverted_from/>
+        <source>c77d84d797324a50e3e737d3f153af50</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:45:54</sys_created_on>
+        <sys_id>617d517397f60e50e3e737d3f153af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1903c55801f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:45:54</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a57d517325f60e50eabeeef816cf4049</update_guid>
+        <update_guid_history>a57d517325f60e50eabeeef816cf4049:1302331616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:52:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>ae3c58c044064301bfd7341cfc3aba29</sys_id>
+        <sys_metadata>217d517397f60e50e3e737d3f153af45</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166825_erp_assi_incident_characters</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent display_value="">297d517397f60e50e3e737d3f153af59</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_217d517397f60e50e3e737d3f153af45</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_217d517397f60e50e3e737d3f153af45">617d517397f60e50e3e737d3f153af4a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:52:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
