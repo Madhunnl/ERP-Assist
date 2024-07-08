@@ -72,7 +72,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[try {
+        <script><![CDATA[/*try {
     var erpCaseSysId = current.sys_id;
 	var jsonString = producer.multi_product_set;
 	var prod_data = JSON.parse(jsonString);
@@ -97,13 +97,121 @@
  catch (e) {
     gs.error('Error: ' + e.message);
     gs.addErrorMessage('Error: ' + e.message);
-}
+} */
 
 
+// var saGR = new GlideRecord('sys_attachment');
+// saGR.addQuery('table_sys_id', current.sys_id);
+// saGR.addQuery('table_name', 'sc_cart_item');
+// saGR.query();
+
+// if (!saGR.next()) {
+//     gs.addErrorMessage("Please add the attachment");
+//     current.setAbortAction(true);
+// } else {
+//     var sysAttachmentID = saGR.getUniqueValue();
+//     if (saGR.getRowCount() > 1) {
+//         gs.addErrorMessage("Please attach all record in 1 file");
+//         current.setAbortAction(true);
+//     }
+//     var passedFormatCheck = false;
+//     if (saGR.file_name.endsWith('.xlsx') == true || saGR.file_name.endsWith('.xls') == true) {
+//         passedFormatCheck = true;
+//     } else {
+//         gs.addErrorMessage("Please attach an excel file only");
+//         current.setAbortAction(true);
+//     }
+//     if (passedFormatCheck) {
+//         gs.addInfoMessage("The File looks good...");
+//         var importSetTableName = 'x_1166825_erp_assi_erp_assist';
+//         var transformMapsSysID = '851e6e9397cf4e90e3e737d3f153af13';
+//         current.name = 'ERP product data';
+//         current.import_set_table_name = importSetTableName;
+//         current.file_retrival_method = 'Attachment';
+//         current.type = 'File';
+//         current.format = 'Excel';
+//         current.header_row = 1;
+//         current.sheet_number = 1;
+
+//         var dataSourceId = current.insert();
+//         saGR.table_name = 'sys_data_source';
+//         var updateAttachment = saGR.update();
 
 
+//         var loader = new GlideImportSetLoader();
+//         var importSetRec = loader.getImportSetGR(importSetRec, current);
+//         importSetRec.state = 'loaded';
+//         importSetRec.update();
 
+//         var transformWorker = new GlideImportsetTransformerWorker(importSetRec.sys_id, transformMapsSysID);
+//         transformWorker.setBackground(true);
+//         transformWorker.start();
+//         gs.addInfoMessage('The ERP product data is imported successfully');
+//         current.setAbortAction(true);
+//     }
+// }
+(function executeProducer(producer) {
+    var saGR = new GlideRecord('sys_attachment');
+    saGR.addQuery('table_sys_id', current.sys_id);
+    saGR.addQuery('table_name', 'ZZ_YYx_1166825_erp_assi_erp_case');
+    saGR.query();
 
+    if (!saGR.next()) {
+        gs.addErrorMessage("Please add the attachment");
+        return;
+    } else {
+        var sysAttachmentID = saGR.getUniqueValue();
+        if (saGR.getRowCount() > 1) {
+            gs.addErrorMessage("Please attach all records in one file");
+            return;
+        }
+
+        var passedFormatCheck = false;
+        if (saGR.file_name.endsWith('.xlsx') || saGR.file_name.endsWith('.xls')) {
+            passedFormatCheck = true;
+        }
+
+        if (!passedFormatCheck) {
+            gs.addErrorMessage("Please attach an Excel file only");
+            return;
+        }
+
+        gs.addInfoMessage("The file looks good...");
+
+        // // Create a new data source
+        // var dataSource = new GlideRecord('sys_data_source');
+        // dataSource.initialize();
+        // dataSource.name = 'ERP product data';
+        // dataSource.import_set_table_name = 'x_1166825_erp_assi_erp_assist';
+        // dataSource.file_retrieval_method = 'Attachment';
+        // dataSource.type = 'File';
+        // dataSource.format = 'Excel';
+        // dataSource.header_row = 1;
+        // dataSource.sheet_number = 1;
+        // var dataSourceId = dataSource.insert();
+
+        // Update attachment table name to 'sys_data_source'
+        var attachment = new GlideRecord('sys_attachment');
+        if (attachment.get(sysAttachmentID)) {
+            attachment.table_name = 'sys_data_source';
+            attachment.table_sys_id = '25c132d797cf4e90e3e737d3f153afb2';
+            attachment.update();
+        }
+
+        // Load the import set
+        var loader = new GlideImportSetLoader();
+        var importSetRec = loader.getImportSetGr(dataSourceId);
+        importSetRec.state = 'loaded';
+        importSetRec.update();
+
+        // Transform the import set
+        var transformWorker = new GlideImportSetTransformerWorker(importSetRec.sys_id, '851e6e9397cf4e90e3e737d3f153af13'); // Use your transform map sys_id
+        transformWorker.setBackground(true);
+        transformWorker.start();
+
+        gs.addInfoMessage('The ERP product data is imported successfully');
+    }
+})(producer);
 ]]></script>
         <short_description>Used for adding ERP Case and ERP Product</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -113,14 +221,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 18:56:56</sys_created_on>
         <sys_id>92124bdd97c30690e3e737d3f153af4b</sys_id>
-        <sys_mod_count>81</sys_mod_count>
+        <sys_mod_count>101</sys_mod_count>
         <sys_name>ERP Case Assist</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sc_cat_item_composite_producer_92124bdd97c30690e3e737d3f153af4b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-01 15:50:01</sys_updated_on>
+        <sys_updated_on>2024-07-08 21:41:15</sys_updated_on>
         <table_name>x_1166825_erp_assi_erp_case</table_name>
         <taxonomy_topic/>
         <template/>
@@ -128,7 +236,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>81</version>
+        <version>101</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
