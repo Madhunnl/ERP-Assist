@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>abf19be79747ce90e3e737d3f153afc5</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e12f5cca93d70210d739b1dcebba10ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_reference_1</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e3f19be79747ce90e3e737d3f153afc6</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e92f5cca93d70210d739b1dcebba10ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_boolean_1</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e7f19be79747ce90e3e737d3f153afc6</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>6d2f5cca93d70210d739b1dcebba10ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>state</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>ebf19be79747ce90e3e737d3f153afc6</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>ed2f5cca93d70210d739b1dcebba10ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>account</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>eff19be79747ce90e3e737d3f153afc6</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>612f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>contact</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e3f19be79747ce90e3e737d3f153afc7</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e12f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>category</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e7f19be79747ce90e3e737d3f153afc7</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>652f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>company</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>ebf19be79747ce90e3e737d3f153afc7</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e52f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>contract</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>eff19be79747ce90e3e737d3f153afc7</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>692f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>entitlement</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e3f19be79747ce90e3e737d3f153afc8</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e92f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>.split</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e7f19be79747ce90e3e737d3f153afc8</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>6d2f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>opened_at</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>ebf19be79747ce90e3e737d3f153afc8</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>ed2f5cca93d70210d739b1dcebba10cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>opened_by</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>eff19be79747ce90e3e737d3f153afc8</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>612f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>sys_updated_on</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e3f19be79747ce90e3e737d3f153afc9</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e12f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>sys_updated_by</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e7f19be79747ce90e3e737d3f153afc9</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>652f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,13 +214,13 @@
             <element>contact_type</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>ebf19be79747ce90e3e737d3f153afc9</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e52f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -228,13 +228,13 @@
             <element>priority</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>eff19be79747ce90e3e737d3f153afc9</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>692f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -242,13 +242,13 @@
             <element>assignment_group</element>
             <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e3f19be79747ce90e3e737d3f153afca</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e92f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -256,13 +256,13 @@
             <element>assigned_to</element>
             <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e7f19be79747ce90e3e737d3f153afca</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>6d2f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -270,83 +270,69 @@
             <element>parent</element>
             <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>ebf19be79747ce90e3e737d3f153afca</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>ed2f5cca93d70210d739b1dcebba10cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_file_attachment_1</element>
-            <position>20</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>eff19be79747ce90e3e737d3f153afca</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>21</position>
+            <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e3f19be79747ce90e3e737d3f153afcb</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>612f5cca93d70210d739b1dcebba10cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>22</position>
+            <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>e7f19be79747ce90e3e737d3f153afcb</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e12f5cca93d70210d739b1dcebba10cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>23</position>
+            <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>ebf19be79747ce90e3e737d3f153afcb</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>652f5cca93d70210d739b1dcebba10cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cxs_table_search.xml</element>
-            <position>24</position>
+            <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-03 19:52:14</sys_created_on>
-            <sys_id>eff19be79747ce90e3e737d3f153afcb</sys_id>
+            <sys_created_on>2024-07-11 01:15:41</sys_created_on>
+            <sys_id>e52f5cca93d70210d739b1dcebba10cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-03 19:52:14</sys_updated_on>
+            <sys_updated_on>2024-07-11 01:15:41</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
