@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1166825_erp_assi.ERPProductDataImport</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ERPProductDataImport</name>
+        <script><![CDATA[// var ERPProductDataImport = Class.create();
+// ERPProductDataImport.prototype = {
+//     initialize: function() {
+//     },
+
+//     importProductData: function(current) {
+//            var saGR = new GlideRecord('sys_attachment');
+//         saGR.addQuery("table_sys_id", current.sys_id);
+//         saGR.addQuery("table_name", 'ZZ_YYsc_cart_item');
+//         saGR.query();
+
+//         if (!saGR.next()) {
+//             gs.addErrorMessage('Please include the attachment');
+//             current.setAbortAction(true);
+//             return;
+//         } else {
+//             var sysAttachmentID = saGR.getUniqueValue();
+//             if (saGR.getRowCount() > 1) {
+//                 gs.addErrorMessage('Only one attachment is allowed');
+//                 current.setAbortAction(true);
+//                 return;
+//             }
+//         }
+
+//         var passedFormatCheck = false;
+//         if (saGR.file_name.endsWith('.xls') || saGR.file_name.endsWith('.xlsx')) {
+//             passedFormatCheck = true;
+//         } else {
+//             gs.addErrorMessage('Only Excel files are allowed');
+//             current.setAbortAction(true);
+//             return;
+//         }
+
+//         if (passedFormatCheck) {
+//             gs.addInfoMessage('File looks okay');
+//             var importSetTableName = 'x_1166825_erp_assi_erp_assist';
+//   			var transformMapSysIds = '352cc40693970210d739b1dcebba10bb';
+//             current.name = gs.getUserName + 'Product data Import';
+//             current.import_set_table_name = importSetTableName;
+//             current.file_retrieval_method = "Attachment";
+//             current.type = "File";
+//             current.format = "Excel";
+//             current.header_row = 1;
+//             current.sheet_number = 1;
+
+//             var dataSourceId = current.insert();
+//             saGR.table_name = 'sys_data_source';
+//             var updateAttachment = saGR.update();
+
+//             var loader = new GlideImportSetLoader();
+//             var importSetRec = loader.getImportSetGr(current);
+//             var ranload = loader.loadImportSetTable(importSetRec, current);
+//             importSetRec.state = "loaded";
+//             importSetRec.update();
+
+//             var transformWorker = new GlideImportSetTransformerWorker(importSetRec.sys_id, transformMapSysIds);
+//             transformWorker.setBackground(true);
+//             transformWorker.start();
+//             gs.addInfoMessage('Success');
+//             current.setAbortAction(true);
+//         }
+// 	 var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+//                 var importSetNumber = importSetRec.DisplayValue();
+//                 productGR.addQuery('import_set.number', importSetNumber);
+//                 productGR.query();
+
+//                 while (productGR.next()) {
+//                     productGR.setValue('u_reference_1', erpCaseSysId);
+//                     productGR.update();
+//                 }
+
+//     },
+
+//     type: 'ERPProductDataImport'
+// };
+
+var ERPProductDataImport = Class.create();
+ERPProductDataImport.prototype = {
+    initialize: function() {
+    },
+
+    importProductData: function(current) {
+        try {
+            var saGR = new GlideRecord('sys_attachment');
+            saGR.addQuery("table_sys_id", current.sys_id);
+            saGR.addQuery("table_name", 'ZZ_YYsc_cart_item');
+            saGR.query();
+
+            if (!saGR.next()) {
+                gs.addErrorMessage('Please include the attachment');
+                current.setAbortAction(true);
+                return null;
+            } else {
+                var sysAttachmentID = saGR.getUniqueValue();
+                if (saGR.getRowCount() > 1) {
+                    gs.addErrorMessage('Only one attachment is allowed');
+                    current.setAbortAction(true);
+                    return null;
+                }
+            }
+
+            var passedFormatCheck = false;
+            if (saGR.file_name.endsWith('.xls') || saGR.file_name.endsWith('.xlsx')) {
+                passedFormatCheck = true;
+            } else {
+                gs.addErrorMessage('Only Excel files are allowed');
+                current.setAbortAction(true);
+                return null;
+            }
+
+            if (passedFormatCheck) {
+                gs.addInfoMessage('File looks okay');
+                var importSetTableName = 'x_1166825_erp_assi_erp_assist';
+                var transformMapSysIds = '352cc40693970210d739b1dcebba10bb';
+                current.name = gs.getUserName() + ' Product data Import';
+                current.import_set_table_name = importSetTableName;
+                current.file_retrieval_method = "Attachment";
+                current.type = "File";
+                current.format = "Excel";
+                current.header_row = 1;
+                current.sheet_number = 1;
+
+                var dataSourceId = current.insert();
+                saGR.table_name = 'sys_data_source';
+                var updateAttachment = saGR.update();
+
+                var loader = new GlideImportSetLoader();
+                var importSetRec = loader.getImportSetGr(current);
+                var ranload = loader.loadImportSetTable(importSetRec, current);
+                importSetRec.state = "loaded";
+                importSetRec.update();
+
+                var transformWorker = new GlideImportSetTransformerWorker(importSetRec.sys_id, transformMapSysIds);
+                transformWorker.setBackground(true);
+                transformWorker.start();
+
+                // Log the import set number
+                var importSetNumber = importSetRec.number.toString();
+                gs.info('Import Set Number: ' + importSetNumber);
+
+                return importSetNumber;
+            }
+        } catch (e) {
+            gs.error('Error in ERPProductDataImport Script Include: ' + e.message);
+            return null;
+        }
+    },
+
+    type: 'ERPProductDataImport'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 23:36:42</sys_created_on>
+        <sys_id>5d12dd9a93d70210d739b1dcebba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERPProductDataImport</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_script_include_5d12dd9a93d70210d739b1dcebba10bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 23:36:42</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>92ecd189db86f95038f1172913961965</instance_id>
+        <instance_name>dev191722</instance_name>
+        <name>sys_script_include_5d12dd9a93d70210d739b1dcebba10bf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1166825_erp_assi.ERPProductDataImport&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;ERPProductDataImport&lt;/name&gt;&lt;script&gt;&lt;![CDATA[// var ERPProductDataImport = Class.create();
+// ERPProductDataImport.prototype = {
+//     initialize: function() {
+//     },
+
+//     importProductData: function(current) {
+//            var saGR = new GlideRecord('sys_attachment');
+//         saGR.addQuery("table_sys_id", current.sys_id);
+//         saGR.addQuery("table_name", 'ZZ_YYsc_cart_item');
+//         saGR.query();
+
+//         if (!saGR.next()) {
+//             gs.addErrorMessage('Please include the attachment');
+//             current.setAbortAction(true);
+//             return;
+//         } else {
+//             var sysAttachmentID = saGR.getUniqueValue();
+//             if (saGR.getRowCount() &gt; 1) {
+//                 gs.addErrorMessage('Only one attachment is allowed');
+//                 current.setAbortAction(true);
+//                 return;
+//             }
+//         }
+
+//         var passedFormatCheck = false;
+//         if (saGR.file_name.endsWith('.xls') || saGR.file_name.endsWith('.xlsx')) {
+//             passedFormatCheck = true;
+//         } else {
+//             gs.addErrorMessage('Only Excel files are allowed');
+//             current.setAbortAction(true);
+//             return;
+//         }
+
+//         if (passedFormatCheck) {
+//             gs.addInfoMessage('File looks okay');
+//             var importSetTableName = 'x_1166825_erp_assi_erp_assist';
+//   			var transformMapSysIds = '352cc40693970210d739b1dcebba10bb';
+//             current.name = gs.getUserName + 'Product data Import';
+//             current.import_set_table_name = importSetTableName;
+//             current.file_retrieval_method = "Attachment";
+//             current.type = "File";
+//             current.format = "Excel";
+//             current.header_row = 1;
+//             current.sheet_number = 1;
+
+//             var dataSourceId = current.insert();
+//             saGR.table_name = 'sys_data_source';
+//             var updateAttachment = saGR.update();
+
+//             var loader = new GlideImportSetLoader();
+//             var importSetRec = loader.getImportSetGr(current);
+//             var ranload = loader.loadImportSetTable(importSetRec, current);
+//             importSetRec.state = "loaded";
+//             importSetRec.update();
+
+//             var transformWorker = new GlideImportSetTransformerWorker(importSetRec.sys_id, transformMapSysIds);
+//             transformWorker.setBackground(true);
+//             transformWorker.start();
+//             gs.addInfoMessage('Success');
+//             current.setAbortAction(true);
+//         }
+// 	 var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+//                 var importSetNumber = importSetRec.DisplayValue();
+//                 productGR.addQuery('import_set.number', importSetNumber);
+//                 productGR.query();
+
+//                 while (productGR.next()) {
+//                     productGR.setValue('u_reference_1', erpCaseSysId);
+//                     productGR.update();
+//                 }
+
+//     },
+
+//     type: 'ERPProductDataImport'
+// };
+
+var ERPProductDataImport = Class.create();
+ERPProductDataImport.prototype = {
+    initialize: function() {
+    },
+
+    importProductData: function(current) {
+        try {
+            var saGR = new GlideRecord('sys_attachment');
+            saGR.addQuery("table_sys_id", current.sys_id);
+            saGR.addQuery("table_name", 'ZZ_YYsc_cart_item');
+            saGR.query();
+
+            if (!saGR.next()) {
+                gs.addErrorMessage('Please include the attachment');
+                current.setAbortAction(true);
+                return null;
+            } else {
+                var sysAttachmentID = saGR.getUniqueValue();
+                if (saGR.getRowCount() &gt; 1) {
+                    gs.addErrorMessage('Only one attachment is allowed');
+                    current.setAbortAction(true);
+                    return null;
+                }
+            }
+
+            var passedFormatCheck = false;
+            if (saGR.file_name.endsWith('.xls') || saGR.file_name.endsWith('.xlsx')) {
+                passedFormatCheck = true;
+            } else {
+                gs.addErrorMessage('Only Excel files are allowed');
+                current.setAbortAction(true);
+                return null;
+            }
+
+            if (passedFormatCheck) {
+                gs.addInfoMessage('File looks okay');
+                var importSetTableName = 'x_1166825_erp_assi_erp_assist';
+                var transformMapSysIds = '352cc40693970210d739b1dcebba10bb';
+                current.name = gs.getUserName() + ' Product data Import';
+                current.import_set_table_name = importSetTableName;
+                current.file_retrieval_method = "Attachment";
+                current.type = "File";
+                current.format = "Excel";
+                current.header_row = 1;
+                current.sheet_number = 1;
+
+                var dataSourceId = current.insert();
+                saGR.table_name = 'sys_data_source';
+                var updateAttachment = saGR.update();
+
+                var loader = new GlideImportSetLoader();
+                var importSetRec = loader.getImportSetGr(current);
+                var ranload = loader.loadImportSetTable(importSetRec, current);
+                importSetRec.state = "loaded";
+                importSetRec.update();
+
+                var transformWorker = new GlideImportSetTransformerWorker(importSetRec.sys_id, transformMapSysIds);
+                transformWorker.setBackground(true);
+                transformWorker.start();
+
+                // Log the import set number
+                var importSetNumber = importSetRec.number.toString();
+                gs.info('Import Set Number: ' + importSetNumber);
+
+                return importSetNumber;
+            }
+        } catch (e) {
+            gs.error('Error in ERPProductDataImport Script Include: ' + e.message);
+            return null;
+        }
+    },
+
+    type: 'ERPProductDataImport'
+};
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-11 23:36:42&lt;/sys_created_on&gt;&lt;sys_id&gt;5d12dd9a93d70210d739b1dcebba10bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ERPProductDataImport&lt;/sys_name&gt;&lt;sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi"&gt;cf7d84d797324a50e3e737d3f153af4b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERP ASSIST"&gt;cf7d84d797324a50e3e737d3f153af4b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5d12dd9a93d70210d739b1dcebba10bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-11 23:36:42&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-798717531</payload_hash>
+        <record_name>ERPProductDataImport</record_name>
+        <reverted_from/>
+        <source>12dfbe6d93d30210d739b1dcebba10a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 23:36:42</sys_created_on>
+        <sys_id>2112dd9a93d70210d739b1dcebba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190a427fdba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 23:36:42</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>6512dd9a38d70210cff154bc175edbc2</update_guid>
+        <update_guid_history>6512dd9a38d70210cff154bc175edbc2:-798717531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 23:36:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1407e8befbdf43f49fa6834b3d3ccae4</sys_id>
+        <sys_metadata>5d12dd9a93d70210d739b1dcebba10bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERPProductDataImport</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sys_script_include_5d12dd9a93d70210d739b1dcebba10bf</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5d12dd9a93d70210d739b1dcebba10bf">2112dd9a93d70210d739b1dcebba10c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 23:36:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

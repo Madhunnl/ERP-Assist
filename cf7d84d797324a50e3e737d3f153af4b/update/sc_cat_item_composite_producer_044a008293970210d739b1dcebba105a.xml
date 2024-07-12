@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>ERP Assit- Multi Product</name>
+        <name>ERP Assit- Mass Product</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -78,20 +78,40 @@
         var erpCase = new GlideRecord('x_1166825_erp_assi_erp_case');
         erpCase.initialize();
         erpCase.setValue('short_description', producer.case_sd);
-		erpCase.setValue('account', producer.account);
-		erpCase.setValue('contact', producer.contact);
-		erpCase.setValue('category', producer.category);
-		erpCase.setValue('u_boolean_1', true);
+        erpCase.setValue('account', producer.account);
+        erpCase.setValue('contact', producer.contact);
+        erpCase.setValue('category', producer.category);
+        erpCase.setValue('u_boolean_1', true);
         var erpCaseSysId = erpCase.insert();
-	var erpProductDataImport = new global.ERPProductDataImport();
-    erpProductDataImport.importProductData(current);
+
+        // Log the ERP Case Sys ID
+        gs.info('Created ERP Case with Sys ID: ' + erpCaseSysId);
+
+        // Call the Script Include to import product data and get the import set number
+        var erpProductDataImport = new global.ERPProductDataImport();
+        var importSetNumber = erpProductDataImport.importProductData(current,erpCaseSysId);
+		
+		//gs.sleep(2000);
+		// var end = new GlideDuration().getNumericValue() + 2000;
+		// while(new new GlideDuration().getNumericValue() < end){
+		// 	//wait
+		// }
+
+		// var caseid = new GlideRecord('x_1166825_erp_assi_erp_case');
+		// caseid.addQuery('sys_id',erpCaseSysId);
+		// caseid.query();
+		// while(caseid.next()){
+		// 	caseid.setValue('import_set',importSetNumber);
+		// 	caseid.update();
+		// }
+
+        // Redirect to the newly created ERP case record
+        producer.redirect = "/x_1166825_erp_assi_erp_case.do?sys_id=" + erpCaseSysId;
+
     } catch (e) {
         gs.error('Error creating ERP Case record: ' + e.message);
     }
 })(producer);
-
-
-
 ]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -101,14 +121,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-10 23:44:48</sys_created_on>
         <sys_id>044a008293970210d739b1dcebba105a</sys_id>
-        <sys_mod_count>24</sys_mod_count>
-        <sys_name>ERP Assit- Multi Product</sys_name>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>ERP Assit- Mass Product</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sc_cat_item_composite_producer_044a008293970210d739b1dcebba105a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-11 02:10:40</sys_updated_on>
+        <sys_updated_on>2024-07-12 01:09:40</sys_updated_on>
         <table_name>sys_data_source</table_name>
         <taxonomy_topic/>
         <template/>

@@ -8,24 +8,20 @@
         <order>100</order>
         <run_business_rules>true</run_business_rules>
         <run_script>false</run_script>
-        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
-
-	// Add your code here
-
-})(source, target, map, log, action==="update");]]></script>
+        <script/>
         <source_table>x_1166825_erp_assi_erp_assist</source_table>
         <sys_class_name>sys_transform_map</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-10 23:53:01</sys_created_on>
         <sys_id>352cc40693970210d739b1dcebba10bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>ERP Product Transform Map</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sys_transform_map_352cc40693970210d739b1dcebba10bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-10 23:53:01</sys_updated_on>
+        <sys_updated_on>2024-07-11 19:10:48</sys_updated_on>
         <target_table>x_1166825_erp_assi_erp_product</target_table>
     </sys_transform_map>
 </record_update>

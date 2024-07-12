@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="540eea9397cf4e90e3e737d3f153af09" extends="sys_import_set_row" label="ERP Assist" max_length="40" name="x_1166825_erp_assi_erp_assist" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Acquisition method" label="Acquisition method" max_length="40" name="u_acquisition_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="40" name="u_c" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Charactieristics in JSON" label="Charactieristics in JSON" max_length="276" name="u_charactieristics_in_json" type="string"/>
         <element attributes="import_attribute_name=Cost" label="Cost" max_length="40" name="u_cost" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Depreciation" label="Depreciation" max_length="40" name="u_depreciation" type="string"/>
@@ -8,5 +10,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Model number" label="Model number" max_length="40" name="u_model_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Table 1" label="Table 1" max_length="40" name="u_table_1" type="string"/>
     </element>
 </database>

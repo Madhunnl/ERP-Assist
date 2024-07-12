@@ -54,7 +54,7 @@
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>sys_data_source</record_producer_table>
+        <record_producer_table>x_1166825_erp_assi_erp_case</record_producer_table>
         <reference>customer_contact</reference>
         <reference_qual/>
         <reference_qual_condition/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 19:22:36</sys_created_on>
         <sys_id>5bc7c7d597070690e3e737d3f153af91</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Who is the Primary Contact?</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>item_option_new_5bc7c7d597070690e3e737d3f153af91</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-09 19:06:52</sys_updated_on>
+        <sys_updated_on>2024-07-11 15:32:02</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

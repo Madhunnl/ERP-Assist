@@ -4,13 +4,13 @@
             <element>REL.cmdb_model.REL:603f83033723100044e0bfc8bcbe5de8</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>cddf71b597878690e3e737d3f153af61</sys_id>
+            <sys_created_on>2024-07-11 18:54:19</sys_created_on>
+            <sys_id>0171981693d30210d739b1dcebba108f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Compatibles" display_value="Compatibles" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">222700a3973e8a50e3e737d3f153afd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:54:19</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>

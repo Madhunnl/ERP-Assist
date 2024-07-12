@@ -4,13 +4,13 @@
             <element>short_description</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>45df71b597878690e3e737d3f153af54</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>448054d293d30210d739b1dcebba1095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>8ddf71b597878690e3e737d3f153af54</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>0c8054d293d30210d739b1dcebba1095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>cmdb_model_category</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>81df71b597878690e3e737d3f153af55</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>8c8054d293d30210d739b1dcebba1095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>asset_tracking_strategy</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>85df71b597878690e3e737d3f153af55</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>008054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>asset_tracking_unit</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>89df71b597878690e3e737d3f153af55</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>808054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>acquisition_method</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>8ddf71b597878690e3e737d3f153af55</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>048054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>cost</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>81df71b597878690e3e737d3f153af56</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>848054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>depreciation</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>85df71b597878690e3e737d3f153af56</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>088054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,223 +116,237 @@
             <element>salvage_value</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>89df71b597878690e3e737d3f153af56</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>888054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_2</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>0c8054d293d30210d739b1dcebba1096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_reference_1</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>8ddf71b597878690e3e737d3f153af56</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>8c8054d293d30210d739b1dcebba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_glide_list_1</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>81df71b597878690e3e737d3f153af57</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>008054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_string_full_utf8_1</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>85df71b597878690e3e737d3f153af57</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>808054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>89df71b597878690e3e737d3f153af57</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>048054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>model_number</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>8ddf71b597878690e3e737d3f153af57</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>848054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>barcode</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>81df71b597878690e3e737d3f153af58</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>088054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>owner</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>85df71b597878690e3e737d3f153af58</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>888054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>16</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>89df71b597878690e3e737d3f153af58</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>0c8054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>life_cycle_stage</element>
-            <position>17</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>8ddf71b597878690e3e737d3f153af58</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>8c8054d293d30210d739b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>life_cycle_stage_status</element>
-            <position>18</position>
+            <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>81df71b597878690e3e737d3f153af59</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>008054d293d30210d739b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>expenditure_type</element>
-            <position>19</position>
+            <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>85df71b597878690e3e737d3f153af59</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>808054d293d30210d739b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>picture</element>
-            <position>20</position>
+            <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>89df71b597878690e3e737d3f153af59</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>048054d293d30210d739b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>certified</element>
-            <position>21</position>
+            <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>8ddf71b597878690e3e737d3f153af59</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>848054d293d30210d739b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>22</position>
+            <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>81df71b597878690e3e737d3f153af5a</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>088054d293d30210d739b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>23</position>
+            <position>24</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-28 03:23:54</sys_created_on>
-            <sys_id>85df71b597878690e3e737d3f153af5a</sys_id>
+            <sys_created_on>2024-07-11 18:50:10</sys_created_on>
+            <sys_id>888054d293d30210d739b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_1166825_erp_assi_erp_product" sys_domain="global" view="Default view">2a2700a3973e8a50e3e737d3f153afd7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-28 03:23:54</sys_updated_on>
+            <sys_updated_on>2024-07-11 18:50:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
