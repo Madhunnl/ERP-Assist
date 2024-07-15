@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>import_set</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 16:51:00</sys_created_on>
+        <sys_id>e39e78a693530210d739b1dcebba102e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>import_set</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e39e78a693530210d739b1dcebba102e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-12 16:51:00</sys_updated_on>
+        <table>x_1166825_erp_assi_erp_product</table>
+        <ui_policy display_value="Hiding import set field">5e3ebc6693530210d739b1dcebba1055</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

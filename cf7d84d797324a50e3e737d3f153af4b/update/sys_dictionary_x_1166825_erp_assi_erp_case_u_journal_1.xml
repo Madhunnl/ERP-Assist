@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sn_customerservice_case" table="x_1166825_erp_assi_erp_case">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_journal_1" table="x_1166825_erp_assi_erp_case">
         <active>true</active>
         <array>false</array>
-        <attributes/>
-        <audit>true</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Product Import Validation Data</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,15 +21,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_journal_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Journal">journal</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>4000</max_length>
         <name>x_1166825_erp_assi_erp_case</name>
         <next_element/>
         <primary>false</primary>
@@ -51,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-20 18:42:40</sys_created_on>
-        <sys_name>x_1166825_erp_assi_erp_case</sys_name>
+        <sys_created_on>2024-07-13 00:05:23</sys_created_on>
+        <sys_name>Product Import Validation Data</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name>sys_dictionary_x_1166825_erp_assi_erp_case_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1166825_erp_assi_erp_case_u_journal_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-13 00:17:56</sys_updated_on>
+        <sys_updated_on>2024-07-13 00:09:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
