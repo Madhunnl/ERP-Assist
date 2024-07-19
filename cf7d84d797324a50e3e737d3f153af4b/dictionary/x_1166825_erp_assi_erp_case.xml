@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0e2500ef97fa8a50e3e737d3f153af45" extends="sn_customerservice_case" label="ERP Case" max_length="40" name="x_1166825_erp_assi_erp_case" type="collection">
-        <element label="import set" max_length="32" name="import_set" reference="sys_import_set" type="reference"/>
+        <element label="Import set" max_length="32" name="import_set" reference="sys_import_set" type="reference"/>
         <element label="Mutiple Product Request?" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="Product's data" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="Product Import Validation Data" max_length="4000" name="u_journal_1" type="journal"/>

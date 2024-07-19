@@ -7,88 +7,481 @@
         <client_callable>true</client_callable>
         <description>Used for creating ERP product record.</description>
         <name>test</name>
-        <script><![CDATA[var test = Class.create();
-test.prototype = {
-    initialize: function() {
-    },
+        <script><![CDATA[// var ERPProductDataValidation = Class.create();
+// ERPProductDataValidation.prototype = {
+//     initialize: function() {},
 
-    importProductData: function(current) {
-        var saGR = new GlideRecordSecure('sys_attachment');
-        saGR.addQuery('table_sys_id', current.sys_id);
-        saGR.addQuery('table_name', 'ZZ_YYx_1166825_erp_assi_erp_case');
-        saGR.query();
+//     validateAndImportData: function(caseSysId) {
+//         gs.info('Started validateAndImportData for case: ' + caseSysId);
 
-        if (!saGR.next()) {
-            gs.addErrorMessage("Please add the attachment");
+//         var attachmentGR = new GlideRecord('sys_attachment');
+//         attachmentGR.addQuery("table_sys_id", caseSysId);
+//         attachmentGR.addQuery("table_name", 'ZZ_YYx_1166825_erp_assi_erp_case');
+//         attachmentGR.query();
+
+//         if (!attachmentGR.next()) {
+//             gs.addErrorMessage('Please include the attachment');
+//             gs.info('No attachment found for case: ' + caseSysId);
+//             return;
+//         }
+
+//         var attachment = new GlideSysAttachment();
+//         var attachmentStream = attachment.getContentStream(attachmentGR.sys_id);
+//         var parser = new sn_impex.GlideExcelParser();
+//         parser.setSource(attachmentStream);
+
+//         var sheetNames = parser.getSheetNames();
+//         if (sheetNames.length === 0) {
+//             gs.error('No sheets found in the Excel file.');
+//             return;
+//         }
+
+//         gs.info('Sheet Names: ' + sheetNames.join(", "));
+
+//         var createdCount = 0;
+//         var skippedCount = 0;
+//         var skippedRecords = [];
+
+//         for (var i = 0; i < sheetNames.length; i++) {
+//             gs.info('Processing Sheet: ' + sheetNames[i]);
+//             parser.setSheetName(sheetNames[i]);
+
+//             if (parser.parse()) {
+//                 var headers = parser.getColumnHeaders();
+//                 gs.info('Headers: ' + headers.join(", "));
+
+//                 while (parser.next()) {
+//                     var row = parser.getRow();
+//                     var productName = row[headers[0]].toString();
+//                     var manufacturer = row[headers[1]].toString();
+//                     var shortDescription = row[headers[2]].toString();
+//                     var acquisitionMethod = row[headers[3]].toString();
+//                     var cost = row[headers[4]].toString();
+//                     var depreciation = row[headers[5]].toString();
+//                     var modelNumber = row[headers[6]].toString();
+//                     var characteristicsJSON = row[headers[7]].toString();
+
+//                     // Log each row's data
+//                     gs.info('Processing row - Product Name: ' + productName + ', Manufacturer: ' + manufacturer + ', Short Description: ' + shortDescription);
+
+//                     // Validation checks
+//                     var validationErrors = [];
+//                     if (!/^[a-zA-Z0-9\s]+$/.test(productName)) {
+//                         validationErrors.push("Product Name contains special characters.");
+//                     }
+//                     if (!cost && shortDescription.includes('production')) {
+//                         validationErrors.push("Cost is required if the short description includes 'production'.");
+//                     }
+
+//                     if (validationErrors.length > 0) {
+//                         skippedCount++;
+//                         skippedRecords.push({
+//                             productName: productName,
+//                             manufacturer: manufacturer,
+//                             shortDescription: shortDescription,
+//                             acquisitionMethod: acquisitionMethod,
+//                             cost: cost,
+//                             depreciation: depreciation,
+//                             modelNumber: modelNumber,
+//                             characteristicsJSON: characteristicsJSON,
+//                             errors: validationErrors.join(", ")
+//                         });
+//                         gs.info('Skipping row due to validation errors: ' + validationErrors.join(", "));
+//                         continue;
+//                     }
+
+
+
+//                     // Create product record
+//                     var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+//                     productGR.addQuery('u_reference_1', caseSysId);
+//                     productGR.query();
+//                     if (!productGR.next()) {
+//                         productGR.initialize();
+//                         productGR.setValue('name', productName);
+//                         productGR.setDisplayValue('manufacturer', manufacturer);
+//                         productGR.setValue('short_description', shortDescription);
+//                         productGR.setValue('acquisition_method', acquisitionMethod);
+//                         productGR.setValue('cost', cost);
+//                         productGR.setValue('depreciation', depreciation);
+//                         productGR.setValue('model_number', modelNumber);
+//                         productGR.setValue('u_string_full_utf8_1', characteristicsJSON);
+//                         productGR.setValue('u_reference_1', caseSysId); // Add caseSysId to reference field
+//                         productGR.insert();
+//                         createdCount++;
+//                         gs.info('Product record created for: ' + productName);
+//                     }
+
+//                 }
+//             } else {
+//                 gs.error(parser.getErrorMessage());
+//             }
+//         }
+
+//         // Log and update case with validation errors
+//         var caseGR = new GlideRecord('x_1166825_erp_assi_erp_case');
+//         if (caseGR.get(caseSysId)) {
+//             var additionalComments = 'Created: ' + createdCount + ', Skipped: ' + skippedCount + '\n';
+//             if (skippedRecords.length > 0) {
+//                 additionalComments += 'Skipped Records:\n' + JSON.stringify(skippedRecords, null, 2);
+//             }
+//             caseGR.setValue('description', additionalComments);
+//             caseGR.update();
+//             gs.info('Case updated with additional comments.');
+//         }
+
+//         gs.info('Finished validateAndImportData for case: ' + caseSysId);
+//     },
+
+//     type: 'ERPProductDataValidation'
+// };
+
+// var ERPProductDataValidation = Class.create();
+// ERPProductDataValidation.prototype = {
+//     initialize: function() {},
+
+//     validateAndImportData: function(caseSysId,casenum) {
+//         gs.info('Started validateAndImportData for case: ' + caseSysId + casenum);
+
+// 		//check the attachment table for a record with case sys_id
+//         var attachmentGR = new GlideRecord('sys_attachment');
+//         attachmentGR.addQuery("table_sys_id", caseSysId);
+//         attachmentGR.addQuery("table_name", 'ZZ_YYx_1166825_erp_assi_erp_case');
+//         attachmentGR.query();
+
+//         if (!attachmentGR.next()) {
+//             gs.addErrorMessage('Please include the attachment');
+//             gs.info('No attachment found for case: ' + caseSysId);
+//             return;
+//         }
+
+//         var attachment = new GlideSysAttachment();
+//         var attachmentStream = attachment.getContentStream(attachmentGR.sys_id);
+//         var parser = new sn_impex.GlideExcelParser();
+//         parser.setSource(attachmentStream);
+
+// 		//check if the excel file is empty
+//         var sheetNames = parser.getSheetNames();
+//         if (sheetNames.length === 0) {
+//             gs.error('No sheets found in the Excel file.');
+//             return;
+//         }
+
+//         gs.info('Sheet Names: ' + sheetNames.join(", "));
+
+//         var createdCount = 0;
+//         var skippedCount = 0;
+//         var skippedRecords = [];
+
+// 		//process each sheet in the excel file
+//         for (var i = 0; i < sheetNames.length; i++) {
+//             gs.info('Processing Sheet: ' + sheetNames[i]);
+//             parser.setSheetName(sheetNames[i]);
+
+// 		//process each row
+//             if (parser.parse()) {
+//                 var headers = parser.getColumnHeaders();
+//                 gs.info('Headers: ' + headers.join(", "));
+
+//                 while (parser.next()) {
+//                     var row = parser.getRow();
+//                     var productName = row[headers[0]].toString();
+//                     var manufacturer = row[headers[1]].toString();
+//                     var shortDescription = row[headers[2]].toString();
+//                     var acquisitionMethod = row[headers[3]].toString();
+//                     var cost = row[headers[4]].toString();
+//                     var depreciation = row[headers[5]].toString();
+//                     var modelNumber = row[headers[6]].toString();
+//                     var characteristicsJSON = row[headers[7]].toString();
+
+//                     // Log each row's data
+//                     gs.info('Processing row - Product Name: ' + productName + ', Manufacturer: ' + manufacturer + ', Short Description: ' + shortDescription);
+
+//                     // Validation checks
+//                     var validationErrors = [];
+//                     if (!/^[a-zA-Z0-9\s]+$/.test(productName)) {
+//                         validationErrors.push("Product Name contains special characters.");
+//                     }
+//                     if (!cost && shortDescription.includes('production')) {
+//                         validationErrors.push("Cost is required if the short description includes 'production'.");
+//                     }
+// 					//if there are any errors, count the skipped records and push the record into the array
+//                     if (validationErrors.length > 0) {
+//                         skippedCount++;
+//                         skippedRecords.push({
+//                             productName: productName,
+//                             manufacturer: manufacturer,
+//                             shortDescription: shortDescription,
+//                             acquisitionMethod: acquisitionMethod,
+//                             cost: cost,
+//                             depreciation: depreciation,
+//                             modelNumber: modelNumber,
+//                             characteristicsJSON: characteristicsJSON,
+//                             errors: validationErrors.join(", ")
+//                         });
+//                         gs.info('Skipping row due to validation errors: ' + validationErrors.join(", "));
+//                         continue;
+//                     }
+
+//                     // Check if the product already exists
+//                     var existingProductGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+//                     existingProductGR.addQuery('name', productName);
+//                     existingProductGR.addQuery('manufacturer.name', manufacturer);
+//                     existingProductGR.addQuery('short_description', shortDescription);
+//                 	existingProductGR.addQuery('acquisition_method', acquisitionMethod);
+//                     existingProductGR.addQuery('cost', cost);
+//                     //existingProductGR.addQuery('depreciation.name', depreciation);
+//                     existingProductGR.addQuery('model_number', modelNumber);
+// 					existingProductGR.addQuery('u_reference_1.number',casenum);
+//                     existingProductGR.query();
+
+//                     if (existingProductGR.next()) {
+						
+//                         skippedCount++;
+//                         skippedRecords.push({
+//                             productName: productName,
+//                             manufacturer: manufacturer,
+//                             shortDescription: shortDescription,
+//                             acquisitionMethod: acquisitionMethod,
+//                             cost: cost,
+//                             depreciation: depreciation,
+//                             modelNumber: modelNumber,
+//                             characteristicsJSON: characteristicsJSON,
+//                             errors: "Duplicate product"
+//                         });
+//                         gs.info('Skipping duplicate product: ' + productName);
+//                         continue;
+//                     }
+					
+
+//                     // Create product record
+//                     var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+//                     productGR.initialize();
+//                     productGR.setValue('name', productName);
+//                     productGR.setDisplayValue('manufacturer', manufacturer);
+//                     productGR.setValue('short_description', shortDescription);
+//                     productGR.setValue('acquisition_method', acquisitionMethod);
+//                     productGR.setValue('cost', cost);
+//                     productGR.setDisplayValue('depreciation', depreciation);
+//                     productGR.setValue('model_number', modelNumber);
+//                     productGR.setValue('u_string_full_utf8_1', characteristicsJSON);
+//                     productGR.setValue('u_reference_1', caseSysId); // Add caseSysId to reference field
+//                     productGR.insert();
+//                     createdCount++;
+//                     gs.info('Product record created for: ' + productName);
+//                 }
+//             } else {
+//                 gs.error(parser.getErrorMessage());
+//             }
+//         }
+
+//         // Log and update case with validation errors
+//         var caseGR = new GlideRecord('x_1166825_erp_assi_erp_case');
+//         if (caseGR.get(caseSysId)) {
+//             var additionalComments = 'Created: ' + createdCount + ', Skipped: ' + skippedCount + '\n';
+//             if (skippedRecords.length > 0) {
+//                 additionalComments += 'Skipped Records:\n' + JSON.stringify(skippedRecords, null, 2);
+//             }
+//             caseGR.u_journal_1 = additionalComments;
+//             caseGR.update();
+//             gs.info('Case updated with additional comments.');
+//         }
+
+//         gs.info('Finished validateAndImportData for case: ' + caseSysId);
+//     },
+
+//     type: 'ERPProductDataValidation'
+// };
+
+
+
+var ERPProductDataValidation = Class.create();
+ERPProductDataValidation.prototype = {
+    initialize: function() {},
+
+    validateAndImportData: function(caseSysId, casenum) {
+        gs.info('Started validateAndImportData for case: ' + caseSysId + ' ' + casenum);
+
+        var attachmentGR = new GlideRecord('sys_attachment');
+        attachmentGR.addQuery("table_sys_id", caseSysId);
+        attachmentGR.addQuery("table_name", 'ZZ_YYx_1166825_erp_assi_erp_case');
+        attachmentGR.query();
+
+        if (!attachmentGR.next()) {
+            gs.addErrorMessage('Please include the attachment');
+            gs.info('No attachment found for case: ' + caseSysId);
             return;
-        } else {
-            var sysAttachmentID = saGR.getUniqueValue();
-            if (saGR.getRowCount() > 1) {
-                gs.addErrorMessage("Please attach all records in one file");
-                return;
-            }
-
-            var passedFormatCheck = false;
-            if (saGR.file_name.endsWith('.xlsx') || saGR.file_name.endsWith('.xls')) {
-                passedFormatCheck = true;
-            }
-
-            if (!passedFormatCheck) {
-                gs.addErrorMessage("Please attach an Excel file only");
-                return;
-            }
-
-            gs.addInfoMessage("The file looks good...");
-
-            // Create a new data source
-            var dataSource = new GlideRecordSecure('sys_data_source');
-            dataSource.initialize();
-            dataSource.name = 'ERP product data';
-            dataSource.import_set_table_name = 'x_1166825_erp_assi_erp_assist';
-            dataSource.file_retrieval_method = 'Attachment';
-            dataSource.type = 'File';
-            dataSource.format = 'Excel';
-            dataSource.header_row = 1;
-            dataSource.sheet_number = 1;
-            var dataSourceId = dataSource.insert();
-
-            // Update attachment table name to 'sys_data_source'
-            var attachment = new GlideRecordSecure('sys_attachment');
-            if (attachment.get(sysAttachmentID)) {
-                attachment.table_name = 'sys_data_source';
-                attachment.table_sys_id = dataSourceId;  // Use the created dataSource ID
-                attachment.update();
-            }
-
-            // Load the import set
-            var loader = new GlideImportSetLoader();
-            var importSetRec = loader.getImportSetGr(dataSourceId);
-            importSetRec.state = 'loaded';
-            importSetRec.update();
-
-            // Transform the import set
-            var transformWorker = new GlideImportSetTransformerWorker(importSetRec.sys_id, '851e6e9397cf4e90e3e737d3f153af13'); // Use your transform map sys_id
-            transformWorker.setBackground(true);
-            transformWorker.start();
-
-            gs.addInfoMessage('The ERP product data is imported successfully');
         }
+
+        var attachment = new GlideSysAttachment();
+        var attachmentStream = attachment.getContentStream(attachmentGR.sys_id);
+        var parser = new sn_impex.GlideExcelParser();
+        parser.setSource(attachmentStream);
+
+        var sheetNames = parser.getSheetNames();
+        if (sheetNames.length === 0) {
+            gs.error('No sheets found in the Excel file.');
+            return;
+        }
+
+        gs.info('Sheet Names: ' + sheetNames.join(", "));
+
+        var createdCount = 0;
+        var skippedCount = 0;
+        var skippedRecords = [];
+
+        for (var i = 0; i < sheetNames.length; i++) {
+            gs.info('Processing Sheet: ' + sheetNames[i]);
+            parser.setSheetName(sheetNames[i]);
+
+            if (parser.parse()) {
+                var headers = parser.getColumnHeaders();
+                gs.info('Headers: ' + headers.join(", "));
+
+                while (parser.next()) {
+                    var row = parser.getRow();
+                    var productName = row[headers[0]].toString();
+                    var manufacturer = row[headers[1]].toString();
+                    var shortDescription = row[headers[2]].toString();
+                    var acquisitionMethod = row[headers[3]].toString();
+                    var cost = row[headers[4]].toString();
+                    var depreciation = row[headers[5]].toString();
+                    var modelNumber = row[headers[6]].toString();
+                    var characteristicsJSON = row[headers[7]].toString();
+
+                    gs.info('Processing row - Product Name: ' + productName + ', Manufacturer: ' + manufacturer + ', Short Description: ' + shortDescription);
+
+                    var validationErrors = [];
+                    if (!/^[a-zA-Z0-9\s]+$/.test(productName)) {
+                        validationErrors.push("Product Name contains special characters.");
+                    }
+                    if (!cost && shortDescription.includes('production')) {
+                        validationErrors.push("Cost is required if the short description includes 'production'.");
+                    }
+
+                    if (validationErrors.length > 0) {
+                        skippedCount++;
+                        skippedRecords.push({
+                            productName: productName,
+                            manufacturer: manufacturer,
+                            shortDescription: shortDescription,
+                            acquisitionMethod: acquisitionMethod,
+                            cost: cost,
+                            depreciation: depreciation,
+                            modelNumber: modelNumber,
+                            characteristicsJSON: characteristicsJSON,
+                            errors: validationErrors.join(", ")
+                        });
+                        gs.info('Skipping row due to validation errors: ' + validationErrors.join(", "));
+                        continue;
+                    }
+
+                    var existingProductGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+                    existingProductGR.addQuery('name', productName);
+                    existingProductGR.addQuery('manufacturer.name', manufacturer);
+                    existingProductGR.addQuery('short_description', shortDescription);
+                    existingProductGR.addQuery('acquisition_method', acquisitionMethod);
+                    existingProductGR.addQuery('cost', cost);
+                    existingProductGR.addQuery('model_number', modelNumber);
+                    existingProductGR.addQuery('u_reference_1.number', casenum);
+                    existingProductGR.query();
+
+                    if (existingProductGR.next()) {
+                        skippedCount++;
+                        skippedRecords.push({
+                            productName: productName,
+                            manufacturer: manufacturer,
+                            shortDescription: shortDescription,
+                            acquisitionMethod: acquisitionMethod,
+                            cost: cost,
+                            depreciation: depreciation,
+                            modelNumber: modelNumber,
+                            characteristicsJSON: characteristicsJSON,
+                            errors: "Duplicate product"
+                        });
+                        gs.info('Skipping duplicate product: ' + productName);
+                        continue;
+                    }
+
+                    var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+                    productGR.initialize();
+                    productGR.setValue('name', productName);
+                    productGR.setDisplayValue('manufacturer', manufacturer);
+                    productGR.setValue('short_description', shortDescription);
+                    productGR.setValue('acquisition_method', acquisitionMethod);
+                    productGR.setValue('cost', cost);
+                    productGR.setDisplayValue('depreciation', depreciation);
+                    productGR.setValue('model_number', modelNumber);
+                    productGR.setValue('u_string_full_utf8_1', characteristicsJSON);
+                    productGR.setValue('u_reference_1', caseSysId);
+                    productGR.insert();
+                    createdCount++;
+                    gs.info('Product record created for: ' + productName);
+                }
+            } else {
+                gs.error(parser.getErrorMessage());
+            }
+        }
+
+        try {
+            if (skippedRecords.length > 0) {
+                var errorWorkbook = new sn_impex.GlideExcelDocument();
+                var errorSheet = errorWorkbook.createSheet('Errors');
+                var errorHeaders = ['Product Name', 'Manufacturer', 'Short Description', 'Acquisition Method', 'Cost', 'Depreciation', 'Model Number', 'Characteristics JSON', 'Errors'];
+                errorSheet.addRow(errorHeaders);
+
+                for (var j = 0; j < skippedRecords.length; j++) {
+                    var record = skippedRecords[j];
+                    var errorRow = [
+                        record.productName,
+                        record.manufacturer,
+                        record.shortDescription,
+                        record.acquisitionMethod,
+                        record.cost,
+                        record.depreciation,
+                        record.modelNumber,
+                        record.characteristicsJSON,
+                        record.errors
+                    ];
+                    errorSheet.addRow(errorRow);
+                }
+
+                var errorStream = errorWorkbook.saveToStream();
+                var attachmentSysId = new GlideSysAttachment().write(caseSysId, 'Import Errors', 'errors.xlsx', errorStream);
+                gs.info('Error Excel file attached to case: ' + caseSysId + ' with sys_id: ' + attachmentSysId);
+            }
+        } catch (e) {
+            gs.error('Error creating or attaching the error Excel file: ' + e.message);
+        }
+
+        var caseGR = new GlideRecord('x_1166825_erp_assi_erp_case');
+        if (caseGR.get(caseSysId)) {
+            var additionalComments = 'Created: ' + createdCount + ', Skipped: ' + skippedCount + '\n';
+            if (skippedRecords.length > 0) {
+                additionalComments += 'Skipped Records:\n' + JSON.stringify(skippedRecords, null, 2);
+            }
+            caseGR.u_journal_1 = additionalComments;
+            caseGR.update();
+            gs.info('Case updated with additional comments.');
+        }
+
+        gs.info('Finished validateAndImportData for case: ' + caseSysId);
     },
 
-    type: 'test'
+    type: 'ERPProductDataValidation'
 };
 ]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-09 18:08:41</sys_created_on>
         <sys_id>3983f12d979b0ad0e3e737d3f153af5c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sys_script_include_3983f12d979b0ad0e3e737d3f153af5c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-09 18:12:44</sys_updated_on>
+        <sys_updated_on>2024-07-15 20:22:18</sys_updated_on>
     </sys_script_include>
 </record_update>
