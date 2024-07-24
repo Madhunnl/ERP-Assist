@@ -25,7 +25,6 @@
         <table_name>x_1166825_erp_assi_erp_case</table_name>
         <title>Case</title>
         <type>one_to_one</type>
-        <version/>
         <write_roles/>
     </item_option_new_producer_set>
 </record_update>

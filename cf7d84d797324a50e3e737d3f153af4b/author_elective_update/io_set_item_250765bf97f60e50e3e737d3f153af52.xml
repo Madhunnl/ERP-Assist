@@ -42,7 +42,7 @@
         <update_guid_history>71076dffcaf60e509a30dc180dcd7779:459055469</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="testing.ERP Product  characteristics">40532e7b973e0e50e3e737d3f153af14</sys_audit_delete>
+        <sys_audit_delete display_value="">40532e7b973e0e50e3e737d3f153af14</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-22 00:51:05</sys_created_on>

@@ -65,7 +65,7 @@
         <update_guid_history>a8ab55bf03b60e50f6335faf80216a22:1695147226</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Incident products">f41fd53797f60e50e3e737d3f153afa4</sys_audit_delete>
+        <sys_audit_delete display_value="">f41fd53797f60e50e3e737d3f153afa4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 19:52:57</sys_created_on>

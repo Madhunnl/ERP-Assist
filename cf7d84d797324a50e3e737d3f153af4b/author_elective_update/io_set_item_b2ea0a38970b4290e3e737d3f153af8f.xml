@@ -42,7 +42,7 @@
         <update_guid_history>4fea0a38bd0b42902c7818e80dec719d:-2025782040</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ERP Product Entry.Copy of Case &amp; Product entry">218f6d97978b4e90e3e737d3f153afe6</sys_audit_delete>
+        <sys_audit_delete display_value="">218f6d97978b4e90e3e737d3f153afe6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-02 18:03:33</sys_created_on>

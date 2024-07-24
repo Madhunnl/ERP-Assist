@@ -42,7 +42,7 @@
         <update_guid_history>27350021ca4b0690b964a647790a1773:1145979851</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ERP Assist .Discard Draft Config">24170865974b0690e3e737d3f153af58</sys_audit_delete>
+        <sys_audit_delete display_value="">24170865974b0690e3e737d3f153af58</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 23:57:49</sys_created_on>

@@ -20,7 +20,7 @@
         <sys_update_name>sys_restricted_caller_access_1927add0971b82d0e3e737d3f153af3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-05 20:01:36</sys_updated_on>
-        <target name="sys_attachment" target_table="sys_db_object">4eaa0420d9313110cedf7dffddb48f23</target>
+        <target name="sys_attachment" target_table="sys_db_object">926434317d31311076daf29f52070d1e</target>
         <target_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</target_scope>
         <target_table>sys_db_object</target_table>
         <target_type>1</target_type>

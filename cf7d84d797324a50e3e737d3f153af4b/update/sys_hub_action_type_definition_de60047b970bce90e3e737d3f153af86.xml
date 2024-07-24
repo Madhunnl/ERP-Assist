@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de60047b970bce90e3e737d3f153af86</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Run Transform Map on Import Set1</sys_name>
         <sys_overrides/>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_de60047b970bce90e3e737d3f153af86</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
+        <sys_updated_on>2024-07-09 23:39:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -144,18 +144,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7dd34837974bce90e3e737d3f153af1a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>7dd34837974bce90e3e737d3f153af1a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 23:30:02</sys_created_on>
-        <sys_id>b1d34837974bce90e3e737d3f153af2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 23:30:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>importSetSysID</field>
         <id>7dd34837974bce90e3e737d3f153af1a</id>
         <sys_created_by>admin</sys_created_by>
@@ -166,18 +154,6 @@
         <sys_updated_on>2024-07-03 23:30:02</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_7dd34837974bce90e3e737d3f153af1a</table>
         <value>{{action.sysid_for_importset_to_run}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>7dd34837974bce90e3e737d3f153af1a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 23:30:02</sys_created_on>
-        <sys_id>79d34837974bce90e3e737d3f153af2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 23:30:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>transformMap</field>
@@ -733,11 +709,11 @@
         <sys_created_on>2024-07-03 23:30:02</sys_created_on>
         <sys_id>79d34837974bce90e3e737d3f153af14</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SysID for ImportSet to Run</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_de60047b970bce90e3e737d3f153af86_sysid_for_importset_to_run_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:02</sys_updated_on>
         <url/>
@@ -756,11 +732,11 @@
         <sys_created_on>2024-07-03 23:30:02</sys_created_on>
         <sys_id>f5d34837974bce90e3e737d3f153af18</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transform map(s)</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_de60047b970bce90e3e737d3f153af86_transform_map_s_2_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:02</sys_updated_on>
         <url/>
@@ -781,11 +757,11 @@
         <sys_created_on>2024-07-03 23:30:07</sys_created_on>
         <sys_id>c3d34837974bce90e3e737d3f153afbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_de60047b970bce90e3e737d3f153af86___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:07</sys_updated_on>
         <url/>
@@ -804,11 +780,11 @@
         <sys_created_on>2024-07-03 23:30:07</sys_created_on>
         <sys_id>cfd34837974bce90e3e737d3f153afb7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_de60047b970bce90e3e737d3f153af86___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:07</sys_updated_on>
         <url/>
@@ -973,18 +949,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=03d34837974bce90e3e737d3f153afee"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>03d34837974bce90e3e737d3f153afee</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 23:30:08</sys_created_on>
-        <sys_id>1bd38837974bce90e3e737d3f153af08</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>importSetSysID</field>
         <id>03d34837974bce90e3e737d3f153afee</id>
         <sys_created_by>admin</sys_created_by>
@@ -995,18 +959,6 @@
         <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_03d34837974bce90e3e737d3f153afee</table>
         <value>{{action.sysid_for_importset_to_run}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>03d34837974bce90e3e737d3f153afee</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 23:30:08</sys_created_on>
-        <sys_id>dbd38837974bce90e3e737d3f153af08</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>transformMap</field>
@@ -1562,11 +1514,11 @@
         <sys_created_on>2024-07-03 23:30:08</sys_created_on>
         <sys_id>4fd34837974bce90e3e737d3f153afe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SysID for ImportSet to Run</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4bd34837974bce90e3e737d3f153afe0_sysid_for_importset_to_run_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
         <url/>
@@ -1585,11 +1537,11 @@
         <sys_created_on>2024-07-03 23:30:08</sys_created_on>
         <sys_id>8bd34837974bce90e3e737d3f153afeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transform map(s)</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4bd34837974bce90e3e737d3f153afe0_transform_map_s_2_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
         <url/>
@@ -1610,11 +1562,11 @@
         <sys_created_on>2024-07-03 23:30:08</sys_created_on>
         <sys_id>53d38837974bce90e3e737d3f153af22</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4bd34837974bce90e3e737d3f153afe0___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
         <url/>
@@ -1633,11 +1585,11 @@
         <sys_created_on>2024-07-03 23:30:08</sys_created_on>
         <sys_id>d7d38837974bce90e3e737d3f153af1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4bd34837974bce90e3e737d3f153afe0___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 23:30:08</sys_updated_on>
         <url/>

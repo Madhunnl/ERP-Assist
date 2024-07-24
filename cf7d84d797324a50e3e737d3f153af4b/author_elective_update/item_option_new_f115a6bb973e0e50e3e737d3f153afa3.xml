@@ -171,7 +171,7 @@
         <update_guid_history>ef35a63ffd3e0e50fc9f60b8414f59ca:395531503</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Product Characteristics in JSON">ac99a2b3977e0e50e3e737d3f153af6f</sys_audit_delete>
+        <sys_audit_delete display_value="">ac99a2b3977e0e50e3e737d3f153af6f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-22 01:18:25</sys_created_on>

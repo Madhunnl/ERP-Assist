@@ -23,7 +23,6 @@
         <sys_updated_on>2024-06-21 20:30:52</sys_updated_on>
         <title>testing 2</title>
         <type>one_to_many</type>
-        <version>5</version>
         <write_roles/>
     </item_option_new_set>
 </record_update>

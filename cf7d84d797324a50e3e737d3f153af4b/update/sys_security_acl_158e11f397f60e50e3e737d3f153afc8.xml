@@ -5,11 +5,9 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_1166825_erp_assi_erp_product_characteristics</description>
-        <local_or_existing>Local</local_or_existing>
         <name>x_1166825_erp_assi_erp_product_characteristics</name>
         <operation display_value="create">create</operation>
         <script/>
-        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 19:50:32</sys_created_on>

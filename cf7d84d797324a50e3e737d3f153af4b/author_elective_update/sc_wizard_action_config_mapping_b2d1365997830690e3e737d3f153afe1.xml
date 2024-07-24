@@ -42,7 +42,7 @@
         <update_guid_history>f6d13659b28306904904b8f934a820e2:313682139</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ERP Case &amp; Product.Edit Item in Advanced View Config">41f6f21197c30690e3e737d3f153af90</sys_audit_delete>
+        <sys_audit_delete display_value="">41f6f21197c30690e3e737d3f153af90</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 18:07:47</sys_created_on>

@@ -42,7 +42,7 @@
         <update_guid_history>fb857e1d418306906dca8098f04f8880:566605385,bf33b2d98d83069036055c62e9995d52:-1575504864,27f13659ed8306905610ac247f1559eb:566605385,e74fee91e683069058d9df4b91f09be8:-1575504864</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ERP Case &amp; Product.Global Wizard Save Config">0df6f21197c30690e3e737d3f153af9d</sys_audit_delete>
+        <sys_audit_delete display_value="">0df6f21197c30690e3e737d3f153af9d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 18:07:47</sys_created_on>

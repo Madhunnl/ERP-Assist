@@ -25,7 +25,6 @@
         <table_name>x_1166825_erp_assi_erp_product</table_name>
         <title>ERP Product Entry</title>
         <type>one_to_one</type>
-        <version>35</version>
         <write_roles/>
     </item_option_new_producer_set>
 </record_update>

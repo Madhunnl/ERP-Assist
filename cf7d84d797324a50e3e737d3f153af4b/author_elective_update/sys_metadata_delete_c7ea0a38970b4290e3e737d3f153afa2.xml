@@ -171,7 +171,7 @@
         <update_guid_history>81c17c2faefe8a500de32f4001d796c3:1254422456</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Related ERP Product Name">a254b4239732ca50e3e737d3f153af61</sys_audit_delete>
+        <sys_audit_delete display_value="">a254b4239732ca50e3e737d3f153af61</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:38:26</sys_created_on>

@@ -23,7 +23,6 @@
         <sys_updated_on>2024-06-28 23:45:52</sys_updated_on>
         <title> Multi Product Set</title>
         <type>one_to_many</type>
-        <version>23</version>
         <write_roles/>
     </item_option_new_set>
 </record_update>

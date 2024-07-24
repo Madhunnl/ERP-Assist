@@ -42,7 +42,7 @@
         <update_guid_history>2f3540e1bc4b069029c77d83a6172605:688947707</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ERP Assist .Item Preview Config">ec170865974b0690e3e737d3f153af76</sys_audit_delete>
+        <sys_audit_delete display_value="">ec170865974b0690e3e737d3f153af76</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 23:57:50</sys_created_on>

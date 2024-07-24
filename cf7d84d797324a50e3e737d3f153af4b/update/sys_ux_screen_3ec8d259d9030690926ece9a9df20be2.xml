@@ -3,7 +3,6 @@
         <active>true</active>
         <app_config display_value="Custom Portal App Config">2ec8d25997030690e3e737d3f153afb6</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Attachment">b6c8d2596503069019f847558b5f5ee8</macroponent>
         <macroponent_config>{

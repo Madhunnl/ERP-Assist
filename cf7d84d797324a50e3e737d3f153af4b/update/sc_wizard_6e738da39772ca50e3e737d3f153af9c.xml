@@ -5,7 +5,7 @@
         <feeback_panel>true</feeback_panel>
         <layout>stacked</layout>
         <name>ERP Case &amp; Product</name>
-        <producer display_value="Product-Stock Entry">ae15194897f2ca10e3e737d3f153afd5</producer>
+        <producer display_value="">ae15194897f2ca10e3e737d3f153afd5</producer>
         <review_step_label>Review and submit</review_step_label>
         <short_description/>
         <show_cancel>false</show_cancel>

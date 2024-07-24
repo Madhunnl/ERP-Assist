@@ -171,7 +171,7 @@
         <update_guid_history>a9a230af11fe8a50b15d920b35fae0c0:-269572372</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Please select the case Priority">6654b4239732ca50e3e737d3f153af42</sys_audit_delete>
+        <sys_audit_delete display_value="">6654b4239732ca50e3e737d3f153af42</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-20 22:07:48</sys_created_on>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f705e4a932b4210d739b1dcebba1098" extends="cmdb_model" label="ERP Retired Product" max_length="40" name="x_1166825_erp_assi_erp_retired_product" type="collection">
+        <element label="Charactieristics in JSON" max_length="4000" name="charactieristics_in_json" type="string"/>
+        <element label="ERP reference Case" max_length="32" name="erp_reference_case" reference="x_1166825_erp_assi_erp_case" type="reference"/>
+        <element label="import set" max_length="32" name="import_set" reference="sys_import_set" type="reference"/>
+        <element label="Product Charaterisitcs" max_length="1024" name="product_charaterisitcs" reference="x_1166825_erp_assi_m2m_x_1166825_er_x_1166825_er" type="glide_list"/>
+        <index name="index">
+            <element name="erp_reference_case"/>
+        </index>
+        <index name="index2">
+            <element name="import_set"/>
+        </index>
+    </element>
+</database>

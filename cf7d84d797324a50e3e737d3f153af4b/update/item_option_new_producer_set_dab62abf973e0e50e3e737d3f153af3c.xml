@@ -25,7 +25,6 @@
         <table_name>x_1166825_erp_assi_m2m_x_1166825_er_x_1166825_er</table_name>
         <title>ERP product characteristics</title>
         <type>one_to_one</type>
-        <version>2</version>
         <write_roles/>
     </item_option_new_producer_set>
 </record_update>

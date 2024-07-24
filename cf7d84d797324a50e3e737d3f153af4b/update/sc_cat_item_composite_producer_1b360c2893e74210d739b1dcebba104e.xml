@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="ERP Assit">1b8273c293ef4210d739b1dcebba104f</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>65bcd377c3011200b12d9f2974d3aea0</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -87,6 +87,8 @@ var prodmodel = producer.model_number;
 var prodACM = producer.acquisition_method;
 var prodsd = producer.short_des;
 var caseID = current.sys_id;
+
+
  var prodID = new GlideRecord('x_1166825_erp_assi_erp_product');
  prodID.initialize();
  prodID.setValue('u_reference_1',caseID);
@@ -99,7 +101,8 @@ var caseID = current.sys_id;
  
  var pID = prodID.insert();
  if(pID){
-	gs.addInfoMessage("Product Sys_ID: "+ pID + " Product name: " + prodID.name);
+	gs.info("Product Sys_ID: "+ pID + " Product name: " + prodID.name);
+	//gs.addInfoMessage("Product Sys_ID: "+ pID + " Product name: " + prodID.name);
  }
  else {
 	gs.addInfoMessage("not created");
@@ -155,6 +158,7 @@ for(var i = 0; i<row;i++){
 }
 // gs.addInfoMessage("Characteristic details row count: " + row);
 // gs.addInfoMessage("Char name: " + char_name);
+
 ]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -164,14 +168,14 @@ for(var i = 0; i<row;i++){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 17:52:09</sys_created_on>
         <sys_id>1b360c2893e74210d739b1dcebba104e</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>ERP Assist - Single Product(K-testing)</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sc_cat_item_composite_producer_1b360c2893e74210d739b1dcebba104e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 16:40:38</sys_updated_on>
+        <sys_updated_on>2024-07-24 02:58:56</sys_updated_on>
         <table_name>x_1166825_erp_assi_erp_case</table_name>
         <taxonomy_topic/>
         <template/>

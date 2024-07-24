@@ -65,7 +65,7 @@
         <update_guid_history>297d517389f60e504a9bdcf9468af00f:204794841</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="incident Characters">d2fe513797f60e50e3e737d3f153afd7</sys_audit_delete>
+        <sys_audit_delete display_value="">d2fe513797f60e50e3e737d3f153afd7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 19:52:30</sys_created_on>

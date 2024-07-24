@@ -5,11 +5,9 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_1166825_erp_assi_erp_case</description>
-        <local_or_existing>Local</local_or_existing>
         <name>x_1166825_erp_assi_erp_case</name>
         <operation display_value="read">read</operation>
         <script/>
-        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-20 18:42:40</sys_created_on>

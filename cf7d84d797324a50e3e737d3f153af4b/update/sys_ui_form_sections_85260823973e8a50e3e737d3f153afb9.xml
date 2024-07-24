@@ -9,8 +9,8 @@
             <sys_id>c9260823973e8a50e3e737d3f153afea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">0d260823973e8a50e3e737d3f153afde</sys_ui_section>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">0d260823973e8a50e3e737d3f153afde</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:55</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>85260823973e8a50e3e737d3f153afde</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">c9260823973e8a50e3e737d3f153afcc</sys_ui_section>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">c9260823973e8a50e3e737d3f153afcc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:55</sys_updated_on>
         </sys_ui_form_section>
@@ -37,8 +37,8 @@
             <sys_id>c9260823973e8a50e3e737d3f153afc1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
-            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">4d260823973e8a50e3e737d3f153afbb</sys_ui_section>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">4d260823973e8a50e3e737d3f153afbb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:55</sys_updated_on>
         </sys_ui_form_section>
@@ -51,8 +51,8 @@
             <sys_id>45260823973e8a50e3e737d3f153afc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
-            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">41260823973e8a50e3e737d3f153afc2</sys_ui_section>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">41260823973e8a50e3e737d3f153afc2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:55</sys_updated_on>
         </sys_ui_form_section>
@@ -65,8 +65,8 @@
             <sys_id>45260823973e8a50e3e737d3f153afcc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="ed8f889b97724a50e3e737d3f153af74">c9260823973e8a50e3e737d3f153afc7</sys_ui_section>
+            <sys_ui_form display_value="x_1166825_erp_assi_erp_case" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">85260823973e8a50e3e737d3f153afb9</sys_ui_form>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="6cfbb8e293800210d739b1dcebba100b">c9260823973e8a50e3e737d3f153afc7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:55</sys_updated_on>
         </sys_ui_form_section>
@@ -89,7 +89,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
-            <view display_value="Case" name="case">ed8f889b97724a50e3e737d3f153af74</view>
+            <view display_value="Case" name="case">6cfbb8e293800210d739b1dcebba100b</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

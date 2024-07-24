@@ -4,7 +4,6 @@
         <acls/>
         <active>false</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=23404000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -30,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b0bc3a6f97c3ce90e3e737d3f153af0d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
@@ -38,7 +37,7 @@
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sys_hub_flow_b0bc3a6f97c3ce90e3e737d3f153af0d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 18:24:43</sys_updated_on>
+        <sys_updated_on>2024-07-09 23:39:48</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b0bc3a6f97c3ce90e3e737d3f153af0d"/>
@@ -230,7 +229,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0b50bb2f97c7ce90e3e737d3f153af30"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -314,7 +312,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4f50bb2f97c7ce90e3e737d3f153af2b"/>
     <sys_hub_flow_output action="delete_multiple" query="model=b0bc3a6f97c3ce90e3e737d3f153af0d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0bc3a6f97c3ce90e3e737d3f153af0d"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=b0bc3a6f97c3ce90e3e737d3f153af0d^sys_idNOT IN342151d4979782d0e3e737d3f153af08,382151d4979782d0e3e737d3f153af01,c750bb2f97c7ce90e3e737d3f153af3d,f02111d4979782d0e3e737d3f153afe1,f42111d4979782d0e3e737d3f153afec,f82111d4979782d0e3e737d3f153aff4,fc2111d4979782d0e3e737d3f153affb"/>
@@ -323,7 +320,6 @@
         <action_inputs/>
         <action_type display_value="Add Worknote Link to Context">fd4a0fb70f003300ecf0cc52ff767e2a</action_type>
         <action_type_parent display_value="Add Worknote Link to Context">ae790f770f003300ecf0cc52ff767efa</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -438,7 +434,6 @@
         <action_inputs/>
         <action_type display_value="Add Worknote Link to Context">fd4a0fb70f003300ecf0cc52ff767e2a</action_type>
         <action_type_parent display_value="Add Worknote Link to Context">ae790f770f003300ecf0cc52ff767efa</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -539,7 +534,6 @@
         <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -628,7 +622,6 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -704,7 +697,6 @@
         <action_inputs/>
         <action_type display_value="Move Attachment">7159823353cc10103a33ddeeff7b1216</action_type>
         <action_type_parent display_value="Move Attachment">8445146a9353130079b5925cf67ffb61</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -779,7 +771,6 @@
         <action_inputs/>
         <action_type display_value="Load Data source to importa table">f12cb3eb970bce90e3e737d3f153af07</action_type>
         <action_type_parent display_value="Load Data source to importa table">7d50372f97c7ce90e3e737d3f153af4e</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -816,7 +807,6 @@
         <action_inputs/>
         <action_type display_value="Run Transform Map on Import Set1">4bd34837974bce90e3e737d3f153afe0</action_type>
         <action_type_parent display_value="Run Transform Map on Import Set1">de60047b970bce90e3e737d3f153af86</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">b0bc3a6f97c3ce90e3e737d3f153af0d</flow>
@@ -851,7 +841,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b0bc3a6f97c3ce90e3e737d3f153af0d"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=b0bc3a6f97c3ce90e3e737d3f153af0d^sys_idNOT IN4f50bb2f97c7ce90e3e737d3f153af41,b02111d4979782d0e3e737d3f153afda"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">0750bb2f97c7ce90e3e737d3f153af41</block>
         <comment/>
         <connected_to/>
@@ -924,7 +913,6 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4f50bb2f97c7ce90e3e737d3f153af41"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4f50bb2f97c7ce90e3e737d3f153af41"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">b42111d4979782d0e3e737d3f153afd9</block>
         <comment/>
         <connected_to/>
@@ -986,11 +974,11 @@
         <sys_created_on>2024-07-03 22:04:55</sys_created_on>
         <sys_id>0b50bb2f97c7ce90e3e737d3f153af32</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0bc3a6f97c3ce90e3e737d3f153af0d_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 22:04:55</sys_updated_on>
         <url/>
@@ -1009,11 +997,11 @@
         <sys_created_on>2024-07-03 22:04:55</sys_created_on>
         <sys_id>0f50bb2f97c7ce90e3e737d3f153af2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0bc3a6f97c3ce90e3e737d3f153af0d_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-03 22:04:55</sys_updated_on>
         <url/>
@@ -1027,7 +1015,6 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -1210,7 +1197,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=83f5983f978bce90e3e737d3f153afbc"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1294,7 +1280,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9bf5983f978bce90e3e737d3f153afd2"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c3f5983f978bce90e3e737d3f153afba"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c3f5983f978bce90e3e737d3f153afba"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=c3f5983f978bce90e3e737d3f153afba^sys_idNOT IN1ff5d83f978bce90e3e737d3f153af04,53f5d83f978bce90e3e737d3f153af0d,5ff5d83f978bce90e3e737d3f153af17,93f5983f978bce90e3e737d3f153aff7,9ff5d83f978bce90e3e737d3f153af20,d3f5983f978bce90e3e737d3f153afee,d7f5d83f978bce90e3e737d3f153af26,dff5d83f978bce90e3e737d3f153af2e"/>
@@ -1303,7 +1288,6 @@
         <action_inputs/>
         <action_type display_value="Move Attachment">7159823353cc10103a33ddeeff7b1216</action_type>
         <action_type_parent display_value="Move Attachment">8445146a9353130079b5925cf67ffb61</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1378,7 +1362,6 @@
         <action_inputs/>
         <action_type display_value="Add Worknote Link to Context">fd4a0fb70f003300ecf0cc52ff767e2a</action_type>
         <action_type_parent display_value="Add Worknote Link to Context">ae790f770f003300ecf0cc52ff767efa</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1479,7 +1462,6 @@
         <action_inputs/>
         <action_type display_value="Load Data source to importa table">f12cb3eb970bce90e3e737d3f153af07</action_type>
         <action_type_parent display_value="Load Data source to importa table">7d50372f97c7ce90e3e737d3f153af4e</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1516,7 +1498,6 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1579,7 +1560,6 @@
         <action_inputs/>
         <action_type display_value="Run Transform Map on Import Set1">4bd34837974bce90e3e737d3f153afe0</action_type>
         <action_type_parent display_value="Run Transform Map on Import Set1">de60047b970bce90e3e737d3f153af86</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1616,7 +1596,6 @@
         <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1705,7 +1684,6 @@
         <action_inputs/>
         <action_type display_value="Add Worknote Link to Context">fd4a0fb70f003300ecf0cc52ff767e2a</action_type>
         <action_type_parent display_value="Add Worknote Link to Context">ae790f770f003300ecf0cc52ff767efa</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1806,7 +1784,6 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="test">c3f5983f978bce90e3e737d3f153afba</flow>
@@ -1893,7 +1870,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c3f5983f978bce90e3e737d3f153afba"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c3f5983f978bce90e3e737d3f153afba^sys_idNOT IN57f5983f978bce90e3e737d3f153afdd,97f5983f978bce90e3e737d3f153afe2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">0750bb2f97c7ce90e3e737d3f153af41</block>
         <comment/>
         <connected_to/>
@@ -1966,7 +1942,6 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=57f5983f978bce90e3e737d3f153afdd"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=57f5983f978bce90e3e737d3f153afdd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">4b50bb2f97c7ce90e3e737d3f153af46</block>
         <comment/>
         <connected_to/>
@@ -2028,11 +2003,11 @@
         <sys_created_on>2024-07-04 00:49:19</sys_created_on>
         <sys_id>47f5983f978bce90e3e737d3f153afcf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c3f5983f978bce90e3e737d3f153afba_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-04 00:49:19</sys_updated_on>
         <url/>
@@ -2051,11 +2026,11 @@
         <sys_created_on>2024-07-04 00:49:19</sys_created_on>
         <sys_id>5ff5983f978bce90e3e737d3f153afd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c3f5983f978bce90e3e737d3f153afba_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-04 00:49:19</sys_updated_on>
         <url/>

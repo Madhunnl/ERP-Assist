@@ -14,6 +14,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-26 18:21:40</sys_updated_on>
         <wizard display_value="ERP Case &amp; Product">6e738da39772ca50e3e737d3f153af9c</wizard>
-        <wizard_action_config display_value="Edit Item in Advanced View Config">d75839a2eb43211008f2951ff1522861</wizard_action_config>
+        <wizard_action_config display_value="">d75839a2eb43211008f2951ff1522861</wizard_action_config>
     </sc_wizard_action_config_mapping>
 </record_update>

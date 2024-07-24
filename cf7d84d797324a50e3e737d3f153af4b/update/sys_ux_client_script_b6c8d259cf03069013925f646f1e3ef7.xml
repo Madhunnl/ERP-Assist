@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
-        <controller_preset/>
         <includes/>
         <macroponent display_value="Settings Page">32c81659600306901ce9f968c7540609</macroponent>
         <name>breadcrumbs_1_items</name>

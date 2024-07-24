@@ -8,7 +8,7 @@
             <sys_id>c5260823973e8a50e3e737d3f153af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="3aa778757db1311076daf29f52070de0">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>c5260823973e8a50e3e737d3f153af95</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="3aa778757db1311076daf29f52070de0">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>c9260823973e8a50e3e737d3f153af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="3aa778757db1311076daf29f52070de0">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>cd260823973e8a50e3e737d3f153af95</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="3aa778757db1311076daf29f52070de0">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>cd260823973e8a50e3e737d3f153af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="3aa778757db1311076daf29f52070de0">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>c1260823973e8a50e3e737d3f153af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="3aa778757db1311076daf29f52070de0">c1260823973e8a50e3e737d3f153af94</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_updated_on>2024-06-20 18:45:54</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">d42c04acd9313110cedf7dffddb48f64</view>
+            <view display_value="Workspace" name="workspace">3aa778757db1311076daf29f52070de0</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

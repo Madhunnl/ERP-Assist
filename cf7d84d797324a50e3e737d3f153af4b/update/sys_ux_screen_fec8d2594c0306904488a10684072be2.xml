@@ -3,7 +3,6 @@
         <active>true</active>
         <app_config display_value="Custom Portal App Config">2ec8d25997030690e3e737d3f153afb6</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Task rejected">f2c8d259ae030690f63fbe5fa78026fd</macroponent>
         <macroponent_config>{

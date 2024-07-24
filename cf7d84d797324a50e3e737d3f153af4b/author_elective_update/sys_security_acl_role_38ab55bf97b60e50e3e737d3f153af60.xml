@@ -41,7 +41,7 @@
         <update_guid_history>70ab55bf15b60e50f0d05ced03676164:-784291292</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1166825_erp_assi_incident_products.x_1166825_erp_assi.incident_products_user">381fd53797f60e50e3e737d3f153af98</sys_audit_delete>
+        <sys_audit_delete display_value="">381fd53797f60e50e3e737d3f153af98</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 19:52:57</sys_created_on>

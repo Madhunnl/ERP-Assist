@@ -42,7 +42,7 @@
         <update_guid_history>cc97725105c306903c1b6f71ccb79166:-2090380353</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ERP Case &amp; Product.IAR Save">06f73e1197c30690e3e737d3f153af89</sys_audit_delete>
+        <sys_audit_delete display_value="">06f73e1197c30690e3e737d3f153af89</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-26 18:12:13</sys_created_on>

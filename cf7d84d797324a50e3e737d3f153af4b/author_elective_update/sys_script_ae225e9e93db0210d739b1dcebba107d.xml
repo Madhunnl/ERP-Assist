@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1166825_erp_assi_erp_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>ERP case import set assigning</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var impset = current.getValue('import_set');
+	gs.info('logs after value'+impset);
+	if(impset){
+		gs.info('log inside if BR');
+		current.setValue('description','testing');
+		current.setValue('priority',1);  
+		current.update();
+		var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+        productGR.addQuery('import_set', impset); // Use the correct field name
+        productGR.query();
+
+        // Log the number of records found
+        gs.info('Number of product records found with the import set reference: ' + productGR.getRowCount());
+
+        while (productGR.next()) {
+            // Set the ERP case reference in the product record
+            productGR.setValue('u_reference_1', current.sys_id); // Ensure 'u_reference_1' is the correct field for ERP Case reference
+            productGR.update();
+
+            // Log each update
+            gs.info('Updated product record with Sys ID: ' + productGR.sys_id + ' and ERP Case Reference: ' + current.sys_id);
+        }
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 04:16:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae225e9e93db0210d739b1dcebba107d</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>ERP case import set assigning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_script_ae225e9e93db0210d739b1dcebba107d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-12 17:47:17</sys_updated_on>
+        <template>description=test^EQ</template>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=ae225e9e93db0210d739b1dcebba107d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>92ecd189db86f95038f1172913961965</instance_id>
+        <instance_name>dev191722</instance_name>
+        <name>sys_script_ae225e9e93db0210d739b1dcebba107d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1166825_erp_assi_erp_case&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;ERP case import set assigning&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var impset = current.getValue('import_set');
+	gs.info('logs after value'+impset);
+	if(impset){
+		gs.info('log inside if BR');
+		current.setValue('description','testing');
+		current.setValue('priority',1);  
+		current.update();
+		var productGR = new GlideRecord('x_1166825_erp_assi_erp_product');
+        productGR.addQuery('import_set', impset); // Use the correct field name
+        productGR.query();
+
+        // Log the number of records found
+        gs.info('Number of product records found with the import set reference: ' + productGR.getRowCount());
+
+        while (productGR.next()) {
+            // Set the ERP case reference in the product record
+            productGR.setValue('u_reference_1', current.sys_id); // Ensure 'u_reference_1' is the correct field for ERP Case reference
+            productGR.update();
+
+            // Log each update
+            gs.info('Updated product record with Sys ID: ' + productGR.sys_id + ' and ERP Case Reference: ' + current.sys_id);
+        }
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-12 04:16:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ae225e9e93db0210d739b1dcebba107d&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;ERP case import set assigning&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi"&gt;cf7d84d797324a50e3e737d3f153af4b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERP ASSIST"&gt;cf7d84d797324a50e3e737d3f153af4b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ae225e9e93db0210d739b1dcebba107d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-12 17:47:17&lt;/sys_updated_on&gt;&lt;template&gt;description=test^EQ&lt;/template&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ae225e9e93db0210d739b1dcebba107d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1284961062</payload_hash>
+        <record_name>ERP case import set assigning</record_name>
+        <reverted_from/>
+        <source>12dfbe6d93d30210d739b1dcebba10a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 17:47:17</sys_created_on>
+        <sys_id>70bbc56693930210d739b1dcebba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190a80e74280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-12 17:47:17</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>74bbc566e6930210075afeabbcc0af8d</update_guid>
+        <update_guid_history>74bbc566e6930210075afeabbcc0af8d:1284961062,2d0b0166149302102bb5bd180362c133:-648908621,cff78d22ce930210a47f41203752d1a6:1447065997,534601ae3553021090f9d5aca4ea9dad:-1878010835,850ab0628053021085b6ef8eca145cad:-1203798707,08e9f0622b530210b1b2cf5a34857d49:-715553203,f36974227553021075029e5c8a2cedcc:1632071915,9d38b0ee7b130210011cdeee505ec5fd:260861437,bdd77c6eae13021080b6678e13893170:-1683271740,ecb6786e45130210e44367a2526ff9dd:-988487391,7f46f02e05130210444fdb93a7e0280d:1919854851,ffa5f8ea8d130210fd551e03566195b7:58223937,0735b8ea9c130210fc75c197472295be:-239871088,7d93382a42130210fa714af720b51b99:1928249368,a8f23c2a67130210e08db8d184f5a0ab:-617146876,0e32782abb13021013037539bf7dd8b5:1415536593,72f1f8e63e130210f6d126a1fff41c87:-1056899465,7fb1702a0713021041b84774e4c8d302:-539814125,eb41f0e67b130210f2830d2b22922e55:-1018918638,d5c07ca6ba130210ea32f2f850f04b65:-1425006788,dc7030a6d91302102d846700f59a0776:-135736579,347f24664f130210647fba5f321778c3:597826029,a31fec2689130210aa2fef25fccdd783:-256929624,d2d2d212531f02105e082af90eedf132:508317658,ce82dedeccdb0210bc0dc38acf3fdbc4:-1371797448,4a621ede7ddb02100b20e50c8b2fbac3:994046713,27429ade9edb02106d2f73aa6aada502:1717244246,303252de4ddb0210a41a3c44903f1278:2068796903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-22 23:10:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>6ba05d5a0a3d4c468a94affec33bb119</sys_id>
+        <sys_metadata>ae225e9e93db0210d739b1dcebba107d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP case import set assigning</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent display_value="ERP Case">0e2500ef97fa8a50e3e737d3f153af45</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sys_script_ae225e9e93db0210d739b1dcebba107d</sys_update_name>
+        <sys_update_version display_value="sys_script_ae225e9e93db0210d739b1dcebba107d">70bbc56693930210d739b1dcebba108e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-22 23:10:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
