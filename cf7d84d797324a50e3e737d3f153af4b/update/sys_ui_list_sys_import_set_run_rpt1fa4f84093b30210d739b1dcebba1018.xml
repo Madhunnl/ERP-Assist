@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_import_set_run" version="2" view="RPT1fa4f84093b30210d739b1dcebba1018">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="NULL" relationship="NULL" sys_domain="global" view="944634c093b30210d739b1dcebba109f">3bf5090493f30210d739b1dcebba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_id>b3f5090493f30210d739b1dcebba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>errors</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="NULL" relationship="NULL" sys_domain="global" view="944634c093b30210d739b1dcebba109f">3bf5090493f30210d739b1dcebba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_id>37f5090493f30210d739b1dcebba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inserts</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="NULL" relationship="NULL" sys_domain="global" view="944634c093b30210d739b1dcebba109f">3bf5090493f30210d739b1dcebba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_id>b7f5090493f30210d739b1dcebba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ignored</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="NULL" relationship="NULL" sys_domain="global" view="944634c093b30210d739b1dcebba109f">3bf5090493f30210d739b1dcebba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_id>3bf5090493f30210d739b1dcebba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>skipped</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="NULL" relationship="NULL" sys_domain="global" view="944634c093b30210d739b1dcebba109f">3bf5090493f30210d739b1dcebba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_id>bbf5090493f30210d739b1dcebba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>updates</element>
+            <list_id display_value="sys_import_set_run" element="NULL" name="sys_import_set_run" parent="NULL" relationship="NULL" sys_domain="global" view="944634c093b30210d739b1dcebba109f">3bf5090493f30210d739b1dcebba1083</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_id>3ff5090493f30210d739b1dcebba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_import_set_run</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-29 19:28:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bf5090493f30210d739b1dcebba1083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_import_set_run</sys_name>
+            <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+            <sys_update_name>sys_ui_list_sys_import_set_run_RPT1fa4f84093b30210d739b1dcebba1018</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-29 19:28:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt1fa4f84093b30210d739b1dcebba1018" name="RPT1fa4f84093b30210d739b1dcebba1018">944634c093b30210d739b1dcebba109f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA ERP Test - New Tab">cbc668fe93a30610d739b1dcebba105d</legacy_page>
+        <name>PA ERP Test - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 20:00:14</sys_created_on>
+        <sys_id>87c668fe93a30610d739b1dcebba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA ERP Test - New Tab</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_grid_canvas_87c668fe93a30610d739b1dcebba105f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:00:14</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

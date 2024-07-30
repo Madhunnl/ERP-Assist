@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA ERP Test - New Tab">87c668fe93a30610d739b1dcebba105f</canvas_page>
+        <name>ERP Test - New Tab</name>
+        <page display_value="PA ERP Test - New Tab">cbc668fe93a30610d739b1dcebba105d</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 20:00:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47c668fe93a30610d739b1dcebba1062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Test - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>pa_tabs_47c668fe93a30610d739b1dcebba1062</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:00:15</sys_updated_on>
+    </pa_tabs>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="ERP Test">e7a6283293e30610d739b1dcebba1003</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 20:00:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fc6a83293e30610d739b1dcebba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e7a6283293e30610d739b1dcebba1003</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_4fc6a83293e30610d739b1dcebba1034</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:00:15</sys_updated_on>
+        <tab display_value="ERP Test - New Tab">47c668fe93a30610d739b1dcebba1062</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

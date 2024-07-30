@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="229588af97fa8a50e3e737d3f153af22" extends="cmdb_model" label="ERP Product" max_length="40" name="x_1166825_erp_assi_erp_product" type="collection">
         <element label="import set" max_length="32" name="import_set" reference="sys_import_set" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="In Use" label="Product Status" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Use" sequence="0" value="In Use"/>
+                <element inactive_on_update="false" label="Retired" sequence="1" value="Retired"/>
+            </choice>
+        </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Product Charaterisitcs" max_length="1024" name="u_glide_list_1" reference="x_1166825_erp_assi_m2m_x_1166825_er_x_1166825_er" type="glide_list"/>
         <element attributes="encode_utf8=false" label="ERP refernce Case" max_length="32" name="u_reference_1" reference="x_1166825_erp_assi_erp_case" type="reference"/>
         <element attributes="encode_utf8=false" label="test" max_length="32" name="u_reference_2" reference="import_log" type="reference"/>

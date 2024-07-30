@@ -26,7 +26,7 @@ $text-muted:#979797;&#13;
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="csm_index">eb84cfd7cb13020000f8d856634c9c4b</homepage>
+        <homepage display_value="erp_index">6c0a776e93efc210d739b1dcebba10be</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page display_value="kb_home">e1c919e4dbd3220099f93691f0b8f535</kb_knowledge_page>
@@ -45,14 +45,14 @@ $text-muted:#979797;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 16:12:23</sys_created_on>
         <sys_id>630926da93ab8210d739b1dcebba1031</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ERP Assist Test</sys_name>
         <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
         <sys_update_name>sp_portal_630926da93ab8210d739b1dcebba1031</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 16:39:33</sys_updated_on>
+        <sys_updated_on>2024-07-25 18:21:34</sys_updated_on>
         <theme display_value="CSM Default">517030d1531032007a97e192d5dc34d8</theme>
         <title>ERP Assist Test</title>
         <ts_index_group/>

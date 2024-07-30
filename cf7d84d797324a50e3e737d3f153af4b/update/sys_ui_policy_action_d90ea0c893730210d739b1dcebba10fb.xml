@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 17:44:29</sys_created_on>
+        <sys_id>d90ea0c893730210d739b1dcebba10fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d90ea0c893730210d739b1dcebba10fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 17:44:29</sys_updated_on>
+        <table>x_1166825_erp_assi_erp_product</table>
+        <ui_policy display_value="Read Only if the product is retired">dfcdac8893730210d739b1dcebba109b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

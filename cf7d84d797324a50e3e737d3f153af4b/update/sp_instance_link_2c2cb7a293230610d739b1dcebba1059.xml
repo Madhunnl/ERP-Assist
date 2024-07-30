@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>briefcase</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Create an ERP case with the a single or multiple products</short_description>
+        <size>md</size>
+        <sp_column display_value="2">2e3dffa293230610d739b1dcebba1018</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 16:53:50</sys_created_on>
+        <sys_id>2c2cb7a293230610d739b1dcebba1059</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Access Catalog</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sp_instance_link_2c2cb7a293230610d739b1dcebba1059</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 16:59:40</sys_updated_on>
+        <title>Access Catalog</title>
+        <type>url</type>
+        <url>?id=sc_category&amp;catalog_id=65bcd377c3011200b12d9f2974d3aea0</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c2cb7a293230610d739b1dcebba1059"/>
+</record_update>

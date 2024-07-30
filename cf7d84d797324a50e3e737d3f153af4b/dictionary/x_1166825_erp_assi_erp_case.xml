@@ -5,5 +5,6 @@
         <element label="Product's data" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="Product Import Validation Data" max_length="4000" name="u_journal_1" type="journal"/>
         <element attributes="encode_utf8=false" dependent="u_reference_1" dependent_on_field="u_reference_1" label="ERP Product" max_length="32" name="u_reference_1" reference="x_1166825_erp_assi_erp_product" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" dependent="import_set" dependent_on_field="import_set" label="Transform History" max_length="32" name="u_reference_2" reference="sys_import_set_run" type="reference" use_dependent_field="true"/>
     </element>
 </database>

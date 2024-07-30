@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">63cdff2693230610d739b1dcebba10c2</sp_column>
+        <sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:01:50</sys_created_on>
+        <sys_id>acbb48f293630610d739b1dcebba1084</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sp_instance_acbb48f293630610d739b1dcebba1084</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:02:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"items_per_page": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=acbb48f293630610d739b1dcebba1084"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>92ecd189db86f95038f1172913961965</instance_id>
+        <instance_name>dev191722</instance_name>
+        <name>sp_instance_acbb48f293630610d739b1dcebba1084</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;63cdff2693230610d739b1dcebba10c2&lt;/sp_column&gt;&lt;sp_widget display_value="My Requests"&gt;8cc0df25875023000f220cf888cb0bb5&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-25 18:01:50&lt;/sys_created_on&gt;&lt;sys_id&gt;acbb48f293630610d739b1dcebba1084&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi"&gt;cf7d84d797324a50e3e737d3f153af4b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERP ASSIST"&gt;cf7d84d797324a50e3e737d3f153af4b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_acbb48f293630610d739b1dcebba1084&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-25 18:02:09&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"items_per_page": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=acbb48f293630610d739b1dcebba1084"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>231453659</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>12dfbe6d93d30210d739b1dcebba10a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:02:10</sys_created_on>
+        <sys_id>e9cbc4f293630610d739b1dcebba1048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190eb0ebdbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:02:10</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a1cbc4f29463061005b4c49a54f87b48</update_guid>
+        <update_guid_history>a1cbc4f29463061005b4c49a54f87b48:231453659,34bb48f28263061082fbb982fe165e86:87886099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3fdb043693630610d739b1dcebba10b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:02:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>8b608922f79d48488e865012d0f01344</sys_id>
+        <sys_metadata>acbb48f293630610d739b1dcebba1084</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sp_instance_acbb48f293630610d739b1dcebba1084</sys_update_name>
+        <sys_update_version display_value="sp_instance_acbb48f293630610d739b1dcebba1084">e9cbc4f293630610d739b1dcebba1048</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:02:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

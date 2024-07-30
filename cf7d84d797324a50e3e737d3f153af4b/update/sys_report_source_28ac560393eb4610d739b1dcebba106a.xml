@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>test (Import Set Row)</display>
+        <filter table="sys_import_set_row">import_set_run.numberSAMEASnumber<item endquery="false" field="import_set_run.number" goto="false" newquery="false" operator="SAMEAS" or="false" value="number"/>
+        </filter>
+        <name>test</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 23:20:42</sys_created_on>
+        <sys_id>28ac560393eb4610d739b1dcebba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test (Import Set Row)</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_report_source_28ac560393eb4610d739b1dcebba106a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 23:20:42</sys_updated_on>
+        <table>sys_import_set_row</table>
+    </sys_report_source>
+</record_update>

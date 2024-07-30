@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>ERP Index - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="erp_index">6c0a776e93efc210d739b1dcebba10be</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 16:52:16</sys_created_on>
+        <sys_id>e9cb3ba293230610d739b1dcebba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Index - Container 2</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sp_container_e9cb3ba293230610d739b1dcebba10fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 16:52:16</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>92ecd189db86f95038f1172913961965</instance_id>
+        <instance_name>dev191722</instance_name>
+        <name>sp_container_e9cb3ba293230610d739b1dcebba10fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>ERP Index - Container 2</name><order>2</order><sp_page display_value="erp_index">6c0a776e93efc210d739b1dcebba10be</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-25 16:52:16</sys_created_on><sys_id>e9cb3ba293230610d739b1dcebba10fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ERP Index - Container 2</sys_name><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sp_container_e9cb3ba293230610d739b1dcebba10fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 16:52:16</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1431145134</payload_hash>
+        <record_name>ERP Index - Container 2</record_name>
+        <reverted_from/>
+        <source>12dfbe6d93d30210d739b1dcebba10a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 16:52:16</sys_created_on>
+        <sys_id>e5cb7ba293230610d739b1dcebba1000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190eacebf0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 16:52:16</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2dcb3ba245230610d1fed1f84ac9c2ff</update_guid>
+        <update_guid_history>2dcb3ba245230610d1fed1f84ac9c2ff:-1431145134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ERP Index - Container 2">384d772693230610d739b1dcebba10e4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 16:58:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>06c235a88737430d87648bfa5c3a71e1</sys_id>
+        <sys_metadata>e9cb3ba293230610d739b1dcebba10fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Index - Container 2</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sp_container_e9cb3ba293230610d739b1dcebba10fe</sys_update_name>
+        <sys_update_version display_value="sp_container_e9cb3ba293230610d739b1dcebba10fe">e5cb7ba293230610d739b1dcebba1000</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 16:58:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

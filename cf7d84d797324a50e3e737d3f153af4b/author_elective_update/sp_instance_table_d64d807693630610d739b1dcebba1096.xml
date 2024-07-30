@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter table="x_1166825_erp_assi_erp_case">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>pencil-square-o</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">63cdff2693230610d739b1dcebba10c2</sp_column>
+        <sp_page display_value="erp_lists">77a8325a93eb8210d739b1dcebba104c</sp_page>
+        <sp_widget display_value="Count">1d8ad230ff223100ba13ffffffffffb9</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:08:47</sys_created_on>
+        <sys_id>d64d807693630610d739b1dcebba1096</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Cases opened</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sp_instance_table_d64d807693630610d739b1dcebba1096</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 17:21:36</sys_updated_on>
+        <table>x_1166825_erp_assi_erp_case</table>
+        <title>Cases opened</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=d64d807693630610d739b1dcebba1096"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>92ecd189db86f95038f1172913961965</instance_id>
+        <instance_name>dev191722</instance_name>
+        <name>sp_instance_table_d64d807693630610d739b1dcebba1096</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>info</color><css/><display_field/><field_list/><filter table="x_1166825_erp_assi_erp_case">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/></filter><glyph>pencil-square-o</glyph><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">63cdff2693230610d739b1dcebba10c2</sp_column><sp_page display_value="erp_lists">77a8325a93eb8210d739b1dcebba104c</sp_page><sp_widget display_value="Count">1d8ad230ff223100ba13ffffffffffb9</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-25 18:08:47</sys_created_on><sys_id>d64d807693630610d739b1dcebba1096</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Cases opened</sys_name><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sp_instance_table_d64d807693630610d739b1dcebba1096</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-26 17:21:36</sys_updated_on><table>x_1166825_erp_assi_erp_case</table><title>Cases opened</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=d64d807693630610d739b1dcebba1096"/></record_update>]]></payload>
+        <payload_hash>1945363234</payload_hash>
+        <record_name>Cases opened</record_name>
+        <reverted_from/>
+        <source>12dfbe6d93d30210d739b1dcebba10a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 17:21:36</sys_created_on>
+        <sys_id>c11cc58b93674610d739b1dcebba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190f00ff8580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 17:21:36</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>491cc58be4674610a9561b2d4affb71c</update_guid>
+        <update_guid_history>491cc58be4674610a9561b2d4affb71c:1945363234,d4cdc4b6a06306103961abe1ab8a77da:692290538,e7ad44b6a4630610bfda95e8df6a96f2:-452073883,00ad04b6ee630610dd4b819deb8ff713:556861314,418d8876476306101faa05b3595a283a:-1715595677,125dcc76466306104707048f23924a34:228060985,2e4d8076666306109d461929a53f3797:-605839619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cases opened">3693d98393a74610d739b1dcebba1025</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 17:54:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>c93fb223be4941969a71167ec2a59904</sys_id>
+        <sys_metadata>d64d807693630610d739b1dcebba1096</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cases opened</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_d64d807693630610d739b1dcebba1096</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_d64d807693630610d739b1dcebba1096">c11cc58b93674610d739b1dcebba101d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 17:54:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
