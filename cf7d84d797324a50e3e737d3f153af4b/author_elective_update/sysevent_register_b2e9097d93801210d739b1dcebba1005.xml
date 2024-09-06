@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>Automated Report Script</description>
+        <event_name>x_1166825_erp_assi.custom.data.volume.re</event_name>
+        <fired_by>Custom script</fired_by>
+        <queue/>
+        <suffix>custom.data.volume.report.generated</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-16 16:31:47</sys_created_on>
+        <sys_id>b2e9097d93801210d739b1dcebba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166825_erp_assi.custom.data.volume.re</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sysevent_register_b2e9097d93801210d739b1dcebba1005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-16 16:31:47</sys_updated_on>
+        <table>sys_user</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</application>
+        <file_path/>
+        <instance_id>92ecd189db86f95038f1172913961965</instance_id>
+        <instance_name>dev191722</instance_name>
+        <name>sysevent_register_b2e9097d93801210d739b1dcebba1005</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>Automated Report Script</description><event_name>x_1166825_erp_assi.custom.data.volume.re</event_name><fired_by>Custom script</fired_by><queue/><suffix>custom.data.volume.report.generated</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-16 16:31:47</sys_created_on><sys_id>b2e9097d93801210d739b1dcebba1005</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1166825_erp_assi.custom.data.volume.re</sys_name><sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package><sys_policy/><sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope><sys_update_name>sysevent_register_b2e9097d93801210d739b1dcebba1005</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-16 16:31:47</sys_updated_on><table>sys_user</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-716609894</payload_hash>
+        <record_name>x_1166825_erp_assi.custom.data.volume.re</record_name>
+        <reverted_from/>
+        <source>12dfbe6d93d30210d739b1dcebba10a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-16 16:31:47</sys_created_on>
+        <sys_id>401a8d7d93801210d739b1dcebba108c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c07e7890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-16 16:31:47</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>841a8d7dd2801210f7ebca8735e45e8b</update_guid>
+        <update_guid_history>841a8d7dd2801210f7ebca8735e45e8b:-716609894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-16 16:58:32</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>04b8e6d7e5ff4d7081c9447d3b9ad900</sys_id>
+        <sys_metadata>b2e9097d93801210d739b1dcebba1005</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166825_erp_assi.custom.data.volume.re</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_parent display_value="Sys User">44843c317d31311076daf29f52070d56</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_scope_delete display_value="">9ab0ed537efb4215ae0ab596824e64c1</sys_scope_delete>
+        <sys_update_name>sysevent_register_b2e9097d93801210d739b1dcebba1005</sys_update_name>
+        <sys_update_version display_value="sysevent_register_b2e9097d93801210d739b1dcebba1005">401a8d7d93801210d739b1dcebba108c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-16 16:58:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

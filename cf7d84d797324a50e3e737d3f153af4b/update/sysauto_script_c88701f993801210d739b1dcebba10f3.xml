@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Automated Data Volume Report</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-08-16 16:20:35</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[(function() {
+    var csvContent = 'Application Name,Application ID,Table Name,Total Count,Updated Last Month,Updated Last 3 Months,Updated Last 6 Months,Updated Last Year,Referenced Tables\n';
+
+    var scopes = new GlideRecord('sys_scope');
+    scopes.addQuery('scope', 'STARTSWITH', 'x_');  // Filter to include only custom applications with 'x_' prefix
+    scopes.query();
+
+    while (scopes.next()) {
+        var appName = scopes.getValue('name');
+        var appId = scopes.getValue('sys_id');
+
+        var tables = new GlideRecord('sys_db_object');
+        tables.addQuery('sys_scope', appId);
+        tables.query();
+
+        while (tables.next()) {
+            var tableName = tables.getValue('name');
+            var tableLabel = tables.getValue('label');
+
+            var tableData = {
+                total_count: 0,
+                updated_last_month: 0,
+                updated_last_3_months: 0,
+                updated_last_6_months: 0,
+                updated_last_year: 0,
+                referenced_tables: {}
+            };
+
+            // Count total records without any filters
+            var totalGa = new GlideAggregate(tableName);
+            totalGa.addAggregate('COUNT');
+            totalGa.query();
+            if (totalGa.next()) {
+                tableData.total_count = parseInt(totalGa.getAggregate('COUNT'));
+            }
+
+            // Count records updated in the last month
+            var lastMonthGa = new GlideAggregate(tableName);
+            lastMonthGa.addAggregate('COUNT');
+            lastMonthGa.addQuery('sys_updated_on', '>=', gs.daysAgo(30));
+            lastMonthGa.query();
+            if (lastMonthGa.next()) {
+                tableData.updated_last_month = parseInt(lastMonthGa.getAggregate('COUNT'));
+            }
+
+            // Count records updated in the last 3 months
+            var last3MonthsGa = new GlideAggregate(tableName);
+            last3MonthsGa.addAggregate('COUNT');
+            last3MonthsGa.addQuery('sys_updated_on', '>=', gs.daysAgo(90));
+            last3MonthsGa.query();
+            if (last3MonthsGa.next()) {
+                tableData.updated_last_3_months = parseInt(last3MonthsGa.getAggregate('COUNT'));
+            }
+
+            // Count records updated in the last 6 months
+            var last6MonthsGa = new GlideAggregate(tableName);
+            last6MonthsGa.addAggregate('COUNT');
+            last6MonthsGa.addQuery('sys_updated_on', '>=', gs.daysAgo(180));
+            last6MonthsGa.query();
+            if (last6MonthsGa.next()) {
+                tableData.updated_last_6_months = parseInt(last6MonthsGa.getAggregate('COUNT'));
+            }
+
+            // Count records updated in the last year
+            var lastYearGa = new GlideAggregate(tableName);
+            lastYearGa.addAggregate('COUNT');
+            lastYearGa.addQuery('sys_updated_on', '>=', gs.daysAgo(365));
+            lastYearGa.query();
+            if (lastYearGa.next()) {
+                tableData.updated_last_year = parseInt(lastYearGa.getAggregate('COUNT'));
+            }
+
+            // Identify referenced tables and count their rows
+            var refTables = {};
+            var fields = new GlideRecord('sys_dictionary');
+            fields.addQuery('name', tableName);
+            fields.addQuery('internal_type', 'reference');
+            fields.query();
+            while (fields.next()) {
+                var refTable = fields.getValue('reference');
+                if (refTable && !refTables[refTable]) {
+                    var refGa = new GlideAggregate(refTable);
+                    refGa.addAggregate('COUNT');
+                    refGa.query();
+                    if (refGa.next()) {
+                        refTables[refTable] = parseInt(refGa.getAggregate('COUNT'));
+                    }
+                }
+            }
+            tableData.referenced_tables = JSON.stringify(refTables);
+
+            csvContent += [
+                appName,
+                appId,
+                tableLabel,
+                tableData.total_count,
+                tableData.updated_last_month,
+                tableData.updated_last_3_months,
+                tableData.updated_last_6_months,
+                tableData.updated_last_year,
+                tableData.referenced_tables
+            ].join(',') + '\n';
+        }
+    }
+
+    // Create the attachment
+    var userGr = new GlideRecord('sys_user');
+    userGr.get(gs.getUserID());
+    var fileName = 'Custom_Applications_Data_Volume_Report.csv';
+    var contentType = 'text/csv';
+    var attachmentSysId = new GlideSysAttachment().write(userGr, fileName, contentType, csvContent);
+
+    if (attachmentSysId) {
+        gs.info('CSV report created with sys_id: ' + attachmentSysId);
+        gs.eventQueue('x_1166825_erp_assi.custom.data.volume.re', userGr, attachmentSysId, 'recipient@example.com');
+    } else {
+        gs.warn('Failed to create CSV report');
+    }
+})();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-16 16:21:35</sys_created_on>
+        <sys_id>c88701f993801210d739b1dcebba10f3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Automated Data Volume Report</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sysauto_script_c88701f993801210d739b1dcebba10f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-16 23:48:10</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

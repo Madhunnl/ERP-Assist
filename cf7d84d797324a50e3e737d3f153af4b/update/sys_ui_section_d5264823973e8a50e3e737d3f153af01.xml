@@ -396,16 +396,16 @@
             <form_field>import_set</form_field>
             <height>300</height>
             <label>Report</label>
-            <report display_value="ERP Import Error Test">a239b98b932b4610d739b1dcebba102d</report>
-            <report_field>set</report_field>
+            <report display_value="erp error testing(aug 14th)">f3b8c05193401210d739b1dcebba101b</report>
+            <report_field>sys_import_set</report_field>
             <report_qual/>
             <section caption="NULL" display_value="" name="x_1166825_erp_assi_erp_case" sys_domain="global" view="Default view">d5264823973e8a50e3e737d3f153af01</section>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-07-26 18:16:04</sys_created_on>
             <sys_id>3288554b93a74610d739b1dcebba10f3</sys_id>
-            <sys_mod_count>7</sys_mod_count>
+            <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-29 20:32:26</sys_updated_on>
+            <sys_updated_on>2024-08-14 22:29:50</sys_updated_on>
         </sys_ui_chart>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>show_specific_attachment</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    // Add your code here
+   
+    var gr = new GlideRecord('sys_attachment');
+    gr.orderByDesc('sys_creatd_on'); //sort with created descending
+    gr.addQuery('table_sys_id', current.sys_id);
+    gr.setLimit(1); // pick only 1 attachment record
+    gr.query();
+    if (gr.hasNext()) {
+        template.print("Attachment: <br />");
+        while (gr.next()) {
+            var url = gr.getTableName() + ".do?sys_id=" + gr.getValue('sys_id');
+            var attachLink = '<a href="' + url +  '">' + gr.file_name + '</a>';
+            template.print(attachLink +  "<br />");
+        }
+        template.print("<hr/>");
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-16 19:03:46</sys_created_on>
+        <sys_id>dfbc2d7193441210d739b1dcebba108f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>show_specific_attachment</sys_name>
+        <sys_package display_value="ERP ASSIST" source="x_1166825_erp_assi">cf7d84d797324a50e3e737d3f153af4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERP ASSIST">cf7d84d797324a50e3e737d3f153af4b</sys_scope>
+        <sys_update_name>sys_script_email_dfbc2d7193441210d739b1dcebba108f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-16 21:04:03</sys_updated_on>
+    </sys_script_email>
+</record_update>
